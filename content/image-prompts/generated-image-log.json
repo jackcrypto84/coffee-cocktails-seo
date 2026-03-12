@@ -1,101 +1,130 @@
 {
-  "generatedAt": "2026-03-10T02:35:10.802Z",
-  "model": "gpt-image-1.5",
-  "dryRun": true,
+  "generatedAt": "2026-03-12T12:32:49.696Z",
+  "provider": "replicate",
+  "model": "black-forest-labs/flux-schnell",
+  "dryRun": false,
   "delayMs": 2500,
-  "maxRetries": 4,
-  "retryBackoffMs": 5000,
+  "maxRetries": 3,
+  "retryBackoffMs": 4000,
   "batchSize": 2,
-  "startAfter": "espresso-yield-ratios-explained",
+  "startAfter": null,
   "totals": {
-    "scanned": 10,
+    "scanned": 12,
     "generated": 0,
-    "processed": 0,
+    "processed": 12,
     "skippedExisting": 0,
     "skippedMissingPrompt": 0,
-    "errors": 0,
-    "batches": 5
+    "errors": 12,
+    "batches": 6
   },
   "results": [
     {
+      "slug": "v60-bloom-timing-guide",
+      "category": "coffee",
+      "status": "error",
+      "imagePath": "/images/coffee/v60-bloom-timing-guide.jpg",
+      "attempts": 3,
+      "batch": 1,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
+    },
+    {
+      "slug": "espresso-yield-ratios-explained",
+      "category": "coffee",
+      "status": "error",
+      "imagePath": "/images/coffee/espresso-yield-ratios-explained.jpg",
+      "attempts": 3,
+      "batch": 1,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
+    },
+    {
       "slug": "microfoam-at-home",
       "category": "coffee",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/coffee/microfoam-at-home.jpg",
-      "promptPreview": "Photorealistic premium coffee photography of How to Steam Microfoam at Home Without Turning Milk Into Hot Bubbles. Show the final drink exactly as served: soft tan milk coffee, ser",
-      "batch": 1
+      "attempts": 3,
+      "batch": 2,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     },
     {
       "slug": "hand-grinder-upgrade-guide",
       "category": "coffee",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/coffee/hand-grinder-upgrade-guide.jpg",
-      "promptPreview": "Photorealistic premium coffee photography of When a Hand Grinder Upgrade Actually Improves Your Coffee. Show the final drink exactly as served: clear medium-brown brewed coffee, se",
-      "batch": 1
+      "attempts": 3,
+      "batch": 2,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     },
     {
       "slug": "why-your-pour-over-tastes-bitter",
       "category": "coffee",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/coffee/why-your-pour-over-tastes-bitter.jpg",
-      "promptPreview": "Photorealistic premium coffee photography of Why Your Pour-Over Tastes Bitter: The Fastest Fixes to Try First. Show the final drink exactly as served: dark brewed coffee with sligh",
-      "batch": 2
+      "attempts": 3,
+      "batch": 3,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     },
     {
       "slug": "decaf-for-espresso-milk-drinks",
       "category": "coffee",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/coffee/decaf-for-espresso-milk-drinks.jpg",
-      "promptPreview": "Photorealistic premium coffee photography of Choosing Decaf for Espresso Milk Drinks Without Ending Up With Flat Flavor. Show the final drink exactly as served: warm tan with chest",
-      "batch": 2
+      "attempts": 3,
+      "batch": 3,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     },
     {
       "slug": "sesame-orange-old-fashioned",
       "category": "cocktails",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/cocktails/sesame-orange-old-fashioned.jpg",
-      "promptPreview": "Photorealistic premium cocktail photography of Sesame Orange Old Fashioned. Show the final drink exactly as served: deep amber, in double rocks glass, with expressed orange peel an",
-      "batch": 3
+      "attempts": 3,
+      "batch": 4,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     },
     {
       "slug": "yuzu-gimlet-riff",
       "category": "cocktails",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/cocktails/yuzu-gimlet-riff.jpg",
-      "promptPreview": "Photorealistic premium cocktail photography of Yuzu Gimlet Riff: How to Keep Bright Citrus Cocktails Precise Instead of Perfumed. Show the final drink exactly as served: pale yello",
-      "batch": 3
+      "attempts": 3,
+      "batch": 4,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     },
     {
       "slug": "clarified-pineapple-highball",
       "category": "cocktails",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/cocktails/clarified-pineapple-highball.jpg",
-      "promptPreview": "Photorealistic premium cocktail photography of Clarified Pineapple Highball: Tropical Flavor With a Dry, Transparent Finish. Show the final drink exactly as served: pale gold, in t",
-      "batch": 4
+      "attempts": 3,
+      "batch": 5,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     },
     {
       "slug": "rosemary-apricot-spritz",
       "category": "cocktails",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/cocktails/rosemary-apricot-spritz.jpg",
-      "promptPreview": "Photorealistic premium cocktail photography of Rosemary Apricot Spritz for Spring Hosting. Show the final drink exactly as served: apricot peach, in large wine glass, with rosemary",
-      "batch": 4
+      "attempts": 3,
+      "batch": 5,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     },
     {
       "slug": "cold-brew-negroni-riff",
       "category": "cocktails",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/cocktails/cold-brew-negroni-riff.jpg",
-      "promptPreview": "Photorealistic premium cocktail photography of Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry. Show the final drink exactly as served: deep garnet b",
-      "batch": 5
+      "attempts": 3,
+      "batch": 6,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     },
     {
       "slug": "smoked-cherry-sour",
       "category": "cocktails",
-      "status": "needs-generation",
+      "status": "error",
       "imagePath": "/images/cocktails/smoked-cherry-sour.jpg",
-      "promptPreview": "Photorealistic premium cocktail photography of Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink. Show the final drink exactly as served: deep ruby red, in double r",
-      "batch": 5
+      "attempts": 3,
+      "batch": 6,
+      "error": "Request to https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions failed with status 402 Payment Required: {\"title\":\"Insufficient credit\",\"detail\":\"You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.\",\"status\":402}\n."
     }
   ]
 }

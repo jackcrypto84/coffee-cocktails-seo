@@ -1,14 +1,44 @@
-import fs from "node:fs/promises";
+import fs from "node:fs";
+import fsp from "node:fs/promises";
 import path from "node:path";
+import Replicate from "replicate";
 
 const ROOT = process.cwd();
+const ENV_FILES = [".env.local", ".env"];
+
+function loadEnvFile(envPath) {
+  if (!fs.existsSync(envPath)) return;
+
+  const raw = fs.readFileSync(envPath, "utf8");
+  for (const line of raw.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#") || !trimmed.includes("=")) continue;
+
+    const separatorIndex = trimmed.indexOf("=");
+    const key = trimmed.slice(0, separatorIndex).trim();
+    let value = trimmed.slice(separatorIndex + 1).trim();
+
+    if (!key || process.env[key]) continue;
+
+    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+      value = value.slice(1, -1);
+    }
+
+    process.env[key] = value;
+  }
+}
+
+for (const envFile of ENV_FILES) {
+  loadEnvFile(path.join(ROOT, envFile));
+}
+
 const IMAGE_REGISTRY_PATH = path.join(ROOT, "src", "content", "article-images.json");
 const LOG_PATH = path.join(ROOT, "content", "image-prompts", "generated-image-log.json");
-const DEFAULT_DELAY_MS = Number(process.env.OPENAI_IMAGE_DELAY_MS ?? "2500");
-const DEFAULT_MAX_RETRIES = Number(process.env.OPENAI_IMAGE_MAX_RETRIES ?? "3");
-const DEFAULT_BACKOFF_MS = Number(process.env.OPENAI_IMAGE_BACKOFF_MS ?? "4000");
-const DEFAULT_BATCH_SIZE = Number(process.env.OPENAI_IMAGE_BATCH_SIZE ?? "0");
-const OPENAI_API_URL = process.env.OPENAI_IMAGE_API_URL ?? "https://api.openai.com/v1/images/generations";
+const DEFAULT_DELAY_MS = Number(process.env.REPLICATE_IMAGE_DELAY_MS ?? process.env.OPENAI_IMAGE_DELAY_MS ?? "2500");
+const DEFAULT_MAX_RETRIES = Number(process.env.REPLICATE_IMAGE_MAX_RETRIES ?? process.env.OPENAI_IMAGE_MAX_RETRIES ?? "3");
+const DEFAULT_BACKOFF_MS = Number(process.env.REPLICATE_IMAGE_BACKOFF_MS ?? process.env.OPENAI_IMAGE_BACKOFF_MS ?? "4000");
+const DEFAULT_BATCH_SIZE = Number(process.env.REPLICATE_IMAGE_BATCH_SIZE ?? process.env.OPENAI_IMAGE_BATCH_SIZE ?? "0");
+const REPLICATE_MODEL = process.env.REPLICATE_IMAGE_MODEL ?? "black-forest-labs/flux-schnell";
 
 function parseArgs(argv) {
   const options = {
@@ -72,9 +102,10 @@ function parseArgs(argv) {
 function normalizePrompt(prompt) {
   const requiredClauses = [
     "Photorealistic premium food and drink photography.",
-    "1024x1024 composition.",
+    "Square 1024x1024 composition.",
     "Accurate vessel, garnish, and liquid texture.",
     "Realistic lighting and natural reflections.",
+    "Premium editorial styling with minimal clutter.",
     "No text, no logos, no surreal or fantasy styling.",
   ];
 
@@ -102,60 +133,56 @@ function inferCategoryFromImagePath(imagePath) {
 }
 
 async function readJson(filePath) {
-  const raw = await fs.readFile(filePath, "utf8");
+  const raw = await fsp.readFile(filePath, "utf8");
   return JSON.parse(raw);
 }
 
 async function writeJson(filePath, value) {
-  await fs.mkdir(path.dirname(filePath), { recursive: true });
-  await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
-}
-
-function getBase64Payload(payload) {
-  return (
-    payload?.data?.[0]?.b64_json ??
-    payload?.data?.[0]?.base64 ??
-    payload?.output?.[0]?.b64_json ??
-    payload?.image?.b64_json ??
-    payload?.b64_json ??
-    null
-  );
-}
-
-function getUrlPayload(payload) {
-  return payload?.data?.[0]?.url ?? payload?.output?.[0]?.url ?? payload?.url ?? null;
+  await fsp.mkdir(path.dirname(filePath), { recursive: true });
+  await fsp.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
 function isRetryableError(error) {
   const message = error instanceof Error ? error.message : String(error);
-  return /(429|408|409|425|500|502|503|504|timed out|timeout|network|fetch failed|ECONNRESET|ETIMEDOUT|temporar)/i.test(message);
+  return /(429|408|409|425|500|502|503|504|timed out|timeout|network|fetch failed|ECONNRESET|ETIMEDOUT|temporar|rate limit)/i.test(message);
 }
 
-async function callImageApi({ apiKey, prompt }) {
-  const response = await fetch(OPENAI_API_URL, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model: "gpt-image-1.5",
-      prompt: normalizePrompt(prompt),
-      size: "1024x1024",
-      quality: "high",
-      output_format: "jpeg",
-    }),
-  });
-
-  if (!response.ok) {
-    const details = await response.text();
-    throw new Error(`Image API request failed with ${response.status}: ${details}`);
+function getOutputUrl(output) {
+  if (typeof output === "string") return output;
+  if (Array.isArray(output)) {
+    for (const item of output) {
+      if (typeof item === "string") return item;
+      if (item?.url) return item.url;
+      if (typeof item?.toString === "function") {
+        const value = item.toString();
+        if (value && /^https?:/i.test(value)) return value;
+      }
+    }
   }
-
-  return response.json();
+  if (output?.url) return output.url;
+  if (typeof output?.toString === "function") {
+    const value = output.toString();
+    if (value && /^https?:/i.test(value)) return value;
+  }
+  return null;
 }
 
-async function generateImageBytes({ apiKey, prompt, maxRetries, retryBackoffMs }) {
+async function callReplicate({ replicate, prompt }) {
+  return replicate.run(REPLICATE_MODEL, {
+    input: {
+      prompt: normalizePrompt(prompt),
+      aspect_ratio: "1:1",
+      num_outputs: 1,
+      output_format: "jpg",
+      output_quality: 90,
+      go_fast: true,
+      megapixels: "1",
+      num_inference_steps: 4,
+    },
+  });
+}
+
+async function generateImageBytes({ replicate, prompt, maxRetries, retryBackoffMs }) {
   let attempt = 0;
   let lastError = null;
 
@@ -163,32 +190,24 @@ async function generateImageBytes({ apiKey, prompt, maxRetries, retryBackoffMs }
     attempt += 1;
 
     try {
-      const payload = await callImageApi({ apiKey, prompt });
-      const base64Payload = getBase64Payload(payload);
-      if (base64Payload) {
-        return {
-          bytes: Buffer.from(base64Payload, "base64"),
-          responsePrompt: payload?.data?.[0]?.revised_prompt ?? payload?.revised_prompt,
-          attempts: attempt,
-        };
+      const output = await callReplicate({ replicate, prompt });
+      const url = getOutputUrl(output);
+      if (!url) {
+        throw new Error("Replicate output did not contain a downloadable image URL.");
       }
 
-      const url = getUrlPayload(payload);
-      if (url) {
-        const imageResponse = await fetch(url);
-        if (!imageResponse.ok) {
-          const details = await imageResponse.text();
-          throw new Error(`Generated image download failed with ${imageResponse.status}: ${details}`);
-        }
-
-        return {
-          bytes: Buffer.from(await imageResponse.arrayBuffer()),
-          responsePrompt: payload?.data?.[0]?.revised_prompt ?? payload?.revised_prompt,
-          attempts: attempt,
-        };
+      const imageResponse = await fetch(url);
+      if (!imageResponse.ok) {
+        const details = await imageResponse.text();
+        throw new Error(`Generated image download failed with ${imageResponse.status}: ${details}`);
       }
 
-      throw new Error("Image API response did not include base64 image data or a downloadable URL.");
+      return {
+        bytes: Buffer.from(await imageResponse.arrayBuffer()),
+        responsePrompt: normalizePrompt(prompt),
+        attempts: attempt,
+        outputUrl: url,
+      };
     } catch (error) {
       lastError = error;
       const shouldRetry = attempt < maxRetries && isRetryableError(error);
@@ -216,7 +235,7 @@ function chunkEntries(entries, batchSize) {
 
 async function fileExists(filePath) {
   try {
-    await fs.access(filePath);
+    await fsp.access(filePath);
     return true;
   } catch {
     return false;
@@ -226,11 +245,13 @@ async function fileExists(filePath) {
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   const registry = await readJson(IMAGE_REGISTRY_PATH);
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiToken = process.env.REPLICATE_API_TOKEN;
 
-  if (!options.dryRun && !apiKey) {
-    throw new Error("OPENAI_API_KEY is required unless you run with --dry-run.");
+  if (!options.dryRun && !apiToken) {
+    throw new Error("REPLICATE_API_TOKEN is required unless you run with --dry-run. Add it to .env.local or your shell environment.");
   }
+
+  const replicate = options.dryRun ? null : new Replicate({ auth: apiToken });
 
   let entries = Object.entries(registry).filter(([slug, entry]) => {
     if (options.only && !options.only.has(slug)) return false;
@@ -301,14 +322,14 @@ async function main() {
       }
 
       try {
-        const { bytes, responsePrompt, attempts } = await generateImageBytes({
-          apiKey,
+        const { bytes, responsePrompt, attempts, outputUrl } = await generateImageBytes({
+          replicate,
           prompt: entry.imagePrompt,
           maxRetries: options.maxRetries,
           retryBackoffMs: options.retryBackoffMs,
         });
-        await fs.mkdir(path.dirname(absoluteImagePath), { recursive: true });
-        await fs.writeFile(absoluteImagePath, bytes);
+        await fsp.mkdir(path.dirname(absoluteImagePath), { recursive: true });
+        await fsp.writeFile(absoluteImagePath, bytes);
 
         registry[slug] = {
           ...entry,
@@ -326,6 +347,7 @@ async function main() {
           revisedPrompt: responsePrompt,
           attempts,
           batch: batchIndex + 1,
+          outputUrl,
         });
 
         if (options.delayMs > 0) {
@@ -355,7 +377,8 @@ async function main() {
 
   const logPayload = {
     generatedAt: new Date().toISOString(),
-    model: "gpt-image-1.5",
+    provider: "replicate",
+    model: REPLICATE_MODEL,
     dryRun: options.dryRun,
     delayMs: options.delayMs,
     maxRetries: options.maxRetries,

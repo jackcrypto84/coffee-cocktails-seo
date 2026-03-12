@@ -264,7 +264,7 @@ Tradeoffs:
 - Source-reference blocks are designed as editorial scaffolding: they make fact-sensitive sections easier to review, but they do not replace firsthand testing where the article promises it.
 
 ## Recipe image system
-The recipe image layer is now part of the publishing workflow rather than an optional enhancement. Live metadata is stored in:
+The recipe image layer is now part of the publishing workflow rather than an optional enhancement. It now generates missing hero images through Replicate and stores live metadata in:
 - `src/content/article-images.json`
 - `src/lib/recipe-images.ts`
 - `src/components/recipe-hero-media.tsx`
@@ -277,7 +277,7 @@ What it does:
 
 Automatic generation workflow:
 1. Add or review the recipe's `imagePrompt`, `imageAlt`, `imageCaption`, and serving metadata in `src/content/article-images.json`.
-2. Set `OPENAI_API_KEY` in your environment.
+2. Add `REPLICATE_API_TOKEN=your_token_here` to `.env.local` or set it in your shell environment.
 3. Run:
 ```bash
 npm run generate:images
@@ -294,14 +294,15 @@ Helpful options:
 - `npm run generate:images -- --batch-size=2` to process larger queues in smaller sequential batches
 - `npm run generate:images -- --start-after=yuzu-gimlet-riff` to resume after a specific slug
 - `npm run generate:images -- --max-retries=4 --retry-backoff-ms=5000` to retry transient API failures with exponential backoff
-- `OPENAI_IMAGE_DELAY_MS=4000 npm run generate:images` to slow the rate limit between calls
+- `REPLICATE_IMAGE_DELAY_MS=4000 npm run generate:images` to slow the rate limit between calls
+- `REPLICATE_IMAGE_MODEL=black-forest-labs/flux-schnell npm run generate:images` to override the default photorealistic model
 
 Safety rules built into the generator:
 - Skips recipes that already have an image file
 - Skips entries without an `imagePrompt`
 - Avoids overwriting existing local assets
 - Sleeps between API calls to reduce burst traffic
-- Retries transient API and download failures with exponential backoff
+- Retries transient Replicate API and download failures with exponential backoff
 - Supports safer sequential batch runs for larger queues
 - Writes a structured log for generated, skipped, and failed items
 
@@ -316,7 +317,7 @@ Publishing checklist for recipe pages:
 
 Tradeoffs:
 - The generator is intentionally conservative: it only fills missing files and leaves hand-curated replacements alone.
-- Prompt quality still matters. The automation removes manual API calls, but it cannot fix weak visual briefs on its own.
+- Prompt quality still matters. The automation removes manual generation steps, but it cannot fix weak visual briefs on its own.
 - Final editorial review is still recommended for garnish accuracy, glassware accuracy, and visual match to the recipe.
 
 ## SEO and editorial tradeoffs
