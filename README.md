@@ -355,7 +355,7 @@ npm run seo:sitemap
 Optional Search Console status check:
 - Set `GOOGLE_SEARCH_CONSOLE_ACCESS_TOKEN`
 - Set `GOOGLE_SEARCH_CONSOLE_PROPERTY`
-- Run `npm run seo:status -- https://www.groundedandstirred.com/coffee/v60-bloom-timing-guide`
+- Run `npm run seo:status -- https://coffee-cocktails-seo.vercel.app/coffee/v60-bloom-timing-guide`
 
 Tradeoffs:
 - The audit is strict for published articles and route inventory, but it does not pretend to force indexing. Manual submission in Search Console is still the right path for fresh URLs.
