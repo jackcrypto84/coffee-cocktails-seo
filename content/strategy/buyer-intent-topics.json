@@ -1,0 +1,145 @@
+{
+  "total": 20,
+  "topics": [
+    {
+      "topic": "Best hand grinder for daily pour-over under $200",
+      "slug": "/coffee/best-hand-grinder-daily-pour-over-under-200",
+      "cluster": "Coffee",
+      "audience": "Beginner to enthusiast",
+      "review": "Hands-on grinder testing"
+    },
+    {
+      "topic": "Best espresso grinder upgrade if your shots swing wildly",
+      "slug": "/coffee/best-espresso-grinder-upgrade-for-inconsistent-shots",
+      "cluster": "Coffee",
+      "audience": "Enthusiast",
+      "review": "Hands-on grinder testing"
+    },
+    {
+      "topic": "Best scale for espresso and pour-over if you only want one",
+      "slug": "/coffee/best-scale-for-espresso-and-pour-over",
+      "cluster": "Coffee",
+      "audience": "Beginner",
+      "review": "Editorial review"
+    },
+    {
+      "topic": "Best gooseneck kettle for controlled bloom pours",
+      "slug": "/coffee/best-gooseneck-kettle-for-controlled-bloom-pours",
+      "cluster": "Coffee",
+      "audience": "Beginner",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best milk pitcher for learning microfoam at home",
+      "slug": "/coffee/best-milk-pitcher-for-learning-microfoam",
+      "cluster": "Coffee",
+      "audience": "Beginner",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best thermometer if your milk drinks keep tasting flat",
+      "slug": "/coffee/best-milk-thermometer-for-home-lattes",
+      "cluster": "Coffee",
+      "audience": "Beginner",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best water filter setup for better-tasting coffee at home",
+      "slug": "/coffee/best-water-filter-setup-for-home-coffee",
+      "cluster": "Coffee",
+      "audience": "Enthusiast",
+      "review": "Expert review"
+    },
+    {
+      "topic": "Best espresso accessories for cleaner puck prep",
+      "slug": "/coffee/best-espresso-accessories-for-puck-prep",
+      "cluster": "Coffee",
+      "audience": "Enthusiast",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best beans for milk drinks if you want chocolate and caramel notes",
+      "slug": "/coffee/best-beans-for-milk-drinks-chocolate-caramel",
+      "cluster": "Coffee",
+      "audience": "Beginner",
+      "review": "Tasting verification"
+    },
+    {
+      "topic": "Best decaf beans for espresso milk drinks",
+      "slug": "/coffee/best-decaf-beans-for-espresso-milk-drinks",
+      "cluster": "Coffee",
+      "audience": "Beginner",
+      "review": "Tasting verification"
+    },
+    {
+      "topic": "Best bar spoon for controlled stirring",
+      "slug": "/cocktails/best-bar-spoon-for-controlled-stirring",
+      "cluster": "Cocktails",
+      "audience": "Beginner",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best mixing glass for home bartenders who batch two drinks at once",
+      "slug": "/cocktails/best-mixing-glass-for-home-bartenders",
+      "cluster": "Cocktails",
+      "audience": "Beginner to enthusiast",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best julep strainer if you hate messy stirred cocktails",
+      "slug": "/cocktails/best-julep-strainer-for-home-bar",
+      "cluster": "Cocktails",
+      "audience": "Beginner",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best ice molds for spirit-forward cocktails",
+      "slug": "/cocktails/best-ice-molds-for-spirit-forward-cocktails",
+      "cluster": "Cocktails",
+      "audience": "Beginner",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best soda maker setup for highballs and spritzes",
+      "slug": "/cocktails/best-soda-maker-for-highballs-and-spritzes",
+      "cluster": "Cocktails",
+      "audience": "Enthusiast",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best citrus press for a home bar that actually makes sours",
+      "slug": "/cocktails/best-citrus-press-for-home-bar-sours",
+      "cluster": "Cocktails",
+      "audience": "Beginner",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best coupe glasses for small home cocktail setups",
+      "slug": "/cocktails/best-coupe-glasses-for-small-home-bars",
+      "cluster": "Cocktails",
+      "audience": "Beginner",
+      "review": "Editorial review"
+    },
+    {
+      "topic": "Best atomizers for aroma-driven cocktail garnishes",
+      "slug": "/cocktails/best-atomizers-for-cocktail-garnishes",
+      "cluster": "Cocktails",
+      "audience": "Enthusiast",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best storage bottles for syrups and clarified batches",
+      "slug": "/cocktails/best-storage-bottles-for-syrups-and-batches",
+      "cluster": "Cocktails",
+      "audience": "Beginner to enthusiast",
+      "review": "Hands-on testing"
+    },
+    {
+      "topic": "Best beginner home bar kit if you prefer spirit-forward drinks",
+      "slug": "/cocktails/best-beginner-home-bar-kit-for-spirit-forward-drinks",
+      "cluster": "Cocktails",
+      "audience": "Beginner",
+      "review": "Hands-on testing"
+    }
+  ]
+}

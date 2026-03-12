@@ -1,0 +1,405 @@
+{
+  "total": 50,
+  "titles": [
+    {
+      "title": "How to Build an Original Cocktail Without Making a Kitchen Sink Drink",
+      "slug": "how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+      "cluster": "Original cocktail concepts",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "The Easiest Way to Start Designing House Cocktails at Home",
+      "slug": "the-easiest-way-to-start-designing-house-cocktails-at-home",
+      "cluster": "Original cocktail concepts",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Why Savory Notes Work in Cocktails When Sweetness Stays Controlled",
+      "slug": "why-savory-notes-work-in-cocktails-when-sweetness-stays-controlled",
+      "cluster": "Original cocktail concepts",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Tea in Cocktails: How to Add Aroma Without Making the Drink Thin",
+      "slug": "tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+      "cluster": "Original cocktail concepts",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Using Coffee in Stirred Cocktails Without Turning Them Muddy",
+      "slug": "using-coffee-in-stirred-cocktails-without-turning-them-muddy",
+      "cluster": "Original cocktail concepts",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Make Original Cocktails Feel Coherent Instead of Random",
+      "slug": "how-to-make-original-cocktails-feel-coherent-instead-of-random",
+      "cluster": "Original cocktail concepts",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "What to Borrow From Classic Structures When Inventing New Drinks",
+      "slug": "what-to-borrow-from-classic-structures-when-inventing-new-drinks",
+      "cluster": "Original cocktail concepts",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Batch an Original Party Cocktail Without Losing Freshness",
+      "slug": "how-to-batch-an-original-party-cocktail-without-losing-freshness",
+      "cluster": "Original cocktail concepts",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Old Fashioned Riffs That Change the Drink Without Breaking It",
+      "slug": "old-fashioned-riffs-that-change-the-drink-without-breaking-it",
+      "cluster": "Spirit-forward cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Manhattan Variations for People Who Prefer Dry, Not Sticky",
+      "slug": "manhattan-variations-for-people-who-prefer-dry-not-sticky",
+      "cluster": "Spirit-forward cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Stir Cocktails for Texture, Not Just Temperature",
+      "slug": "how-to-stir-cocktails-for-texture-not-just-temperature",
+      "cluster": "Spirit-forward cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "When a Martinez-Style Drink Tastes Better Than a Martini Riff",
+      "slug": "when-a-martinez-style-drink-tastes-better-than-a-martini-riff",
+      "cluster": "Spirit-forward cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How Orange, Sesame, and Rye Create Depth Without Heaviness",
+      "slug": "how-orange-sesame-and-rye-create-depth-without-heaviness",
+      "cluster": "Spirit-forward cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Why Your Spirit-Forward Cocktails Taste Hot Even When They Are Cold",
+      "slug": "why-your-spirit-forward-cocktails-taste-hot-even-when-they-are-cold",
+      "cluster": "Spirit-forward cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Choose Ice for Stirred Drinks That Need Real Structure",
+      "slug": "how-to-choose-ice-for-stirred-drinks-that-need-real-structure",
+      "cluster": "Spirit-forward cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Best Home Bar Tools for Spirit-Forward Cocktails",
+      "slug": "best-home-bar-tools-for-spirit-forward-cocktails",
+      "cluster": "Spirit-forward cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Gin Highballs That Taste Crisp Instead of Diluted",
+      "slug": "gin-highballs-that-taste-crisp-instead-of-diluted",
+      "cluster": "Refreshing highballs and spritzes",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Build a Highball With More Aroma and Less Sugar",
+      "slug": "how-to-build-a-highball-with-more-aroma-and-less-sugar",
+      "cluster": "Refreshing highballs and spritzes",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "The Difference Between a Spritz and a Tall Seasonal Cocktail",
+      "slug": "the-difference-between-a-spritz-and-a-tall-seasonal-cocktail",
+      "cluster": "Refreshing highballs and spritzes",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Keep Spritzes Dry Enough to Drink a Second One",
+      "slug": "how-to-keep-spritzes-dry-enough-to-drink-a-second-one",
+      "cluster": "Refreshing highballs and spritzes",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Citrus-Forward Highballs for Hot Weather Hosting",
+      "slug": "citrus-forward-highballs-for-hot-weather-hosting",
+      "cluster": "Refreshing highballs and spritzes",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "What Carbonation Changes in a Cocktail Beyond Bubbles",
+      "slug": "what-carbonation-changes-in-a-cocktail-beyond-bubbles",
+      "cluster": "Refreshing highballs and spritzes",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Coffee Dessert Cocktails That Still Finish Dry",
+      "slug": "coffee-dessert-cocktails-that-still-finish-dry",
+      "cluster": "Dessert cocktails",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Chocolate Cocktails Without Syrupy Dessert-Menu Energy",
+      "slug": "chocolate-cocktails-without-syrupy-dessert-menu-energy",
+      "cluster": "Dessert cocktails",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Use Cream in Cocktails Without Smothering the Base Spirit",
+      "slug": "how-to-use-cream-in-cocktails-without-smothering-the-base-spirit",
+      "cluster": "Dessert cocktails",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Flip-Style Drinks for People Who Want Texture, Not Eggnog",
+      "slug": "flip-style-drinks-for-people-who-want-texture-not-eggnog",
+      "cluster": "Dessert cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "After-Dinner Cocktails That Feel Rich Without Feeling Heavy",
+      "slug": "after-dinner-cocktails-that-feel-rich-without-feeling-heavy",
+      "cluster": "Dessert cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Make a Dessert Cocktail Taste Adult, Not Novelty",
+      "slug": "how-to-make-a-dessert-cocktail-taste-adult-not-novelty",
+      "cluster": "Dessert cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Spring Cocktails for Brunch That Do Not Taste Like Candles",
+      "slug": "spring-cocktails-for-brunch-that-do-not-taste-like-candles",
+      "cluster": "Seasonal cocktails",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Summer Cocktails for Patios and Small Gatherings",
+      "slug": "summer-cocktails-for-patios-and-small-gatherings",
+      "cluster": "Seasonal cocktails",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Autumn Whiskey Cocktails With Structure and Lift",
+      "slug": "autumn-whiskey-cocktails-with-structure-and-lift",
+      "cluster": "Seasonal cocktails",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Holiday Cocktails That Scale for Guests Without Getting Messy",
+      "slug": "holiday-cocktails-that-scale-for-guests-without-getting-messy",
+      "cluster": "Seasonal cocktails",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Winter Nightcaps That Are Warming but Still Precise",
+      "slug": "winter-nightcaps-that-are-warming-but-still-precise",
+      "cluster": "Seasonal cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How Seasonality Should Change Texture, Not Just Garnish Color",
+      "slug": "how-seasonality-should-change-texture-not-just-garnish-color",
+      "cluster": "Seasonal cocktails",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Design Cocktail Syrups That Support Instead of Dominate",
+      "slug": "how-to-design-cocktail-syrups-that-support-instead-of-dominate",
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Rich Syrup vs Standard Syrup: Which Changes Matter in the Glass",
+      "slug": "rich-syrup-vs-standard-syrup-which-changes-matter-in-the-glass",
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How to Make Herb Syrups That Taste Fresh Instead of Cooked",
+      "slug": "how-to-make-herb-syrups-that-taste-fresh-instead-of-cooked",
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Infusions for Cocktails: When to Stop Before Flavor Turns Dull",
+      "slug": "infusions-for-cocktails-when-to-stop-before-flavor-turns-dull",
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Tinctures vs Syrups vs Liqueurs for Small Flavor Corrections",
+      "slug": "tinctures-vs-syrups-vs-liqueurs-for-small-flavor-corrections",
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Foams for Cocktails That Add Texture Without Looking Gimmicky",
+      "slug": "foams-for-cocktails-that-add-texture-without-looking-gimmicky",
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "How Garnish Aroma Changes the First Sip More Than Most Recipes Admit",
+      "slug": "how-garnish-aroma-changes-the-first-sip-more-than-most-recipes-admit",
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Best Bottles and Tools for Syrups and Infusions",
+      "slug": "best-bottles-and-tools-for-syrups-and-infusions",
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "audience": "Beginner",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Flavor Pairing Guide: Gin With Citrus, Herbs, Tea, and Savory Notes",
+      "slug": "flavor-pairing-guide-gin-with-citrus-herbs-tea-and-savory-notes",
+      "cluster": "Flavor pairing guides",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Flavor Pairing Guide: Rye Whiskey With Stone Fruit, Bitter Orange, and Smoke",
+      "slug": "flavor-pairing-guide-rye-whiskey-with-stone-fruit-bitter-orange-and-smoke",
+      "cluster": "Flavor pairing guides",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Flavor Pairing Guide: Coffee With Amaro, Citrus, and Cocoa in Cocktails",
+      "slug": "flavor-pairing-guide-coffee-with-amaro-citrus-and-cocoa-in-cocktails",
+      "cluster": "Flavor pairing guides",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Flavor Pairing Guide: Apricot in Cocktails Without Turning Jammy",
+      "slug": "flavor-pairing-guide-apricot-in-cocktails-without-turning-jammy",
+      "cluster": "Flavor pairing guides",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Flavor Pairing Guide: Pineapple With Dry Spirits and Bitter Structure",
+      "slug": "flavor-pairing-guide-pineapple-with-dry-spirits-and-bitter-structure",
+      "cluster": "Flavor pairing guides",
+      "audience": "Enthusiast",
+      "intent": "Informational",
+      "review": "Firsthand tasting required"
+    },
+    {
+      "title": "Best Ice Molds for Spirit-Forward Drinks",
+      "slug": "best-ice-molds-for-spirit-forward-drinks",
+      "cluster": "Flavor pairing guides",
+      "audience": "Beginner",
+      "intent": "Commercial",
+      "review": "Hands-on or editorial review required"
+    },
+    {
+      "title": "Best Citrus Presses for a Home Bar That Actually Makes Sours",
+      "slug": "best-citrus-presses-for-a-home-bar-that-actually-makes-sours",
+      "cluster": "Flavor pairing guides",
+      "audience": "Beginner",
+      "intent": "Commercial",
+      "review": "Hands-on or editorial review required"
+    },
+    {
+      "title": "Best Soda Makers for Highballs and Spritzes",
+      "slug": "best-soda-makers-for-highballs-and-spritzes",
+      "cluster": "Flavor pairing guides",
+      "audience": "Beginner",
+      "intent": "Commercial",
+      "review": "Hands-on or editorial review required"
+    }
+  ]
+}

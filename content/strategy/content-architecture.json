@@ -1,0 +1,662 @@
+{
+  "principles": [
+    {
+      "principle": "Originality over volume",
+      "rule": "Ship fewer pages if needed, but every page must answer a sharper question or provide a more tested angle than generic AI content."
+    },
+    {
+      "principle": "Three distinctive insights minimum",
+      "rule": "Every article brief must force at least 3 non-generic insights from tasting notes, side-by-side tests, workflow logs, or service observations."
+    },
+    {
+      "principle": "Programmatic with guardrails",
+      "rule": "No template page should launch unless it can show real curation, useful comparison logic, and a meaningful related-article set."
+    },
+    {
+      "principle": "Human verification where the cup or glass matters",
+      "rule": "Recipes, tasting notes, gear performance claims, historical assertions, and safety guidance require firsthand testing or expert review before publish."
+    },
+    {
+      "principle": "Maintainability first",
+      "rule": "Use a small number of durable clusters and reusable templates instead of exploding taxonomy depth too early."
+    }
+  ],
+  "architecture": [
+    {
+      "cluster": "Coffee brewing fundamentals",
+      "pillarTitle": "Coffee Brewing Fundamentals for Home Brewers",
+      "pillarSlug": "/coffee/coffee-brewing-fundamentals",
+      "intentMix": "Informational",
+      "audience": "Beginner-first",
+      "testingLevel": "Editorial review + selective brewing tests",
+      "estimatedPages": 28,
+      "rationale": "Entry cluster for foundational trust and broad internal linking into every coffee subtopic.",
+      "subclusters": [
+        [
+          "brew ratios basics",
+          6,
+          "Informational",
+          "/coffee/brew-ratios-for-home-coffee"
+        ],
+        [
+          "grind size basics",
+          5,
+          "Informational",
+          "/coffee/grind-size-basics"
+        ],
+        [
+          "brew temperature and timing",
+          5,
+          "Informational",
+          "/coffee/brew-temperature-basics"
+        ],
+        [
+          "freshness and storage",
+          6,
+          "Informational",
+          "/coffee/how-coffee-freshness-changes-brewing"
+        ],
+        [
+          "beginner workflow and setup",
+          6,
+          "Commercial + informational",
+          "/coffee/home-coffee-setup-beginners"
+        ]
+      ]
+    },
+    {
+      "cluster": "Espresso troubleshooting",
+      "pillarTitle": "Espresso Troubleshooting Guide",
+      "pillarSlug": "/coffee/espresso-troubleshooting",
+      "intentMix": "Informational + commercial",
+      "audience": "Enthusiast-first",
+      "testingLevel": "Firsthand brewing required",
+      "estimatedPages": 24,
+      "rationale": "A small site can win by being precise on specific failure modes that bigger sites summarize poorly.",
+      "subclusters": [
+        [
+          "sour, bitter, thin, harsh shots",
+          8,
+          "Informational",
+          "/coffee/espresso-shot-taste-problems"
+        ],
+        [
+          "flow and channeling issues",
+          6,
+          "Informational",
+          "/coffee/espresso-channeling-troubleshooting"
+        ],
+        [
+          "dose, yield, and time adjustments",
+          5,
+          "Informational",
+          "/coffee/espresso-dose-yield-time"
+        ],
+        [
+          "machine and puck prep workflow",
+          5,
+          "Commercial + informational",
+          "/coffee/espresso-puck-prep-workflow"
+        ]
+      ]
+    },
+    {
+      "cluster": "Pour-over recipes",
+      "pillarTitle": "Pour-Over Recipes and Brew Recipes by Device",
+      "pillarSlug": "/coffee/pour-over-recipes",
+      "intentMix": "Informational",
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Firsthand brewing required",
+      "estimatedPages": 26,
+      "rationale": "Recipe pages are rankable when they are specific about bean style, water behavior, and failure points.",
+      "subclusters": [
+        [
+          "V60 recipes by roast and goal",
+          8,
+          "Informational",
+          "/coffee/v60-recipes"
+        ],
+        [
+          "Kalita, Origami, and flat-bottom recipes",
+          6,
+          "Informational",
+          "/coffee/flat-bottom-pour-over-recipes"
+        ],
+        [
+          "small batch vs large batch recipes",
+          5,
+          "Informational",
+          "/coffee/pour-over-batch-size-recipes"
+        ],
+        [
+          "recipe adjustments for water and grinder differences",
+          7,
+          "Informational",
+          "/coffee/pour-over-recipe-adjustments"
+        ]
+      ]
+    },
+    {
+      "cluster": "Milk drinks and cafe-style drinks",
+      "pillarTitle": "Milk Drinks and Cafe-Style Coffee at Home",
+      "pillarSlug": "/coffee/milk-drinks-and-cafe-style-coffee",
+      "intentMix": "Informational + commercial",
+      "audience": "Beginner-first",
+      "testingLevel": "Firsthand brewing required",
+      "estimatedPages": 18,
+      "rationale": "Strong beginner demand and monetization overlap with steam tools, pitchers, thermometers, and milk alternatives.",
+      "subclusters": [
+        [
+          "microfoam and steaming",
+          6,
+          "Informational",
+          "/coffee/microfoam-and-milk-steaming"
+        ],
+        [
+          "latte, cappuccino, flat white differences",
+          4,
+          "Informational",
+          "/coffee/latte-cappuccino-flat-white-guide"
+        ],
+        [
+          "iced cafe-style drinks",
+          4,
+          "Informational",
+          "/coffee/iced-cafe-style-drinks"
+        ],
+        [
+          "milk choice and alt-milk performance",
+          4,
+          "Commercial + informational",
+          "/coffee/best-milk-for-home-lattes"
+        ]
+      ]
+    },
+    {
+      "cluster": "Coffee beans and roast levels",
+      "pillarTitle": "Coffee Beans, Roast Levels, and Flavor Expectations",
+      "pillarSlug": "/coffee/coffee-beans-and-roast-levels",
+      "intentMix": "Informational + commercial",
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Expert review + tasting verification",
+      "estimatedPages": 22,
+      "rationale": "Useful bean content can outrank shallow affiliate lists when it teaches selection and expectation-setting.",
+      "subclusters": [
+        [
+          "light, medium, dark roast guides",
+          6,
+          "Informational",
+          "/coffee/roast-level-guides"
+        ],
+        [
+          "beans for brew method",
+          6,
+          "Commercial + informational",
+          "/coffee/best-coffee-beans-by-brew-method"
+        ],
+        [
+          "beans for flavor goals",
+          5,
+          "Commercial + informational",
+          "/coffee/coffee-beans-by-flavor-goal"
+        ],
+        [
+          "decaf, single origin, blends",
+          5,
+          "Informational",
+          "/coffee/decaf-single-origin-blend-guide"
+        ]
+      ]
+    },
+    {
+      "cluster": "Water, grinders, extraction, ratios",
+      "pillarTitle": "Water, Grinders, Extraction, and Ratios Explained",
+      "pillarSlug": "/coffee/extraction-water-grinders-ratios",
+      "intentMix": "Informational + commercial",
+      "audience": "Enthusiast-first",
+      "testingLevel": "Expert review + selective firsthand tests",
+      "estimatedPages": 26,
+      "rationale": "This cluster differentiates the site with practical process thinking instead of faux science or overclaimed precision.",
+      "subclusters": [
+        [
+          "water composition and filtration",
+          7,
+          "Informational + commercial",
+          "/coffee/coffee-water-and-filtration"
+        ],
+        [
+          "grinder comparisons and upgrades",
+          7,
+          "Commercial + informational",
+          "/coffee/coffee-grinder-upgrade-guides"
+        ],
+        [
+          "extraction and sensory outcomes",
+          6,
+          "Informational",
+          "/coffee/extraction-explained-for-home-brewers"
+        ],
+        [
+          "ratio calculators and frameworks",
+          6,
+          "Informational",
+          "/coffee/coffee-ratio-frameworks"
+        ]
+      ]
+    },
+    {
+      "cluster": "Original cocktail concepts",
+      "pillarTitle": "Original Cocktail Concepts for the Home Bar",
+      "pillarSlug": "/cocktails/original-cocktail-concepts",
+      "intentMix": "Informational",
+      "audience": "Enthusiast-first",
+      "testingLevel": "Firsthand tasting required",
+      "estimatedPages": 24,
+      "rationale": "Originality is the moat. These pages should focus on concept design, balance decisions, and deliberate flavor architecture.",
+      "subclusters": [
+        [
+          "signature riffs by base spirit",
+          8,
+          "Informational",
+          "/cocktails/signature-riffs-by-spirit"
+        ],
+        [
+          "savory, herbal, tea, coffee-inspired ideas",
+          6,
+          "Informational",
+          "/cocktails/original-flavor-concepts"
+        ],
+        [
+          "build-a-drink frameworks",
+          5,
+          "Informational",
+          "/cocktails/how-to-build-original-cocktails"
+        ],
+        [
+          "batchable original party drinks",
+          5,
+          "Informational",
+          "/cocktails/batchable-original-cocktails"
+        ]
+      ]
+    },
+    {
+      "cluster": "Spirit-forward cocktails",
+      "pillarTitle": "Spirit-Forward Cocktails and Stirred Drink Techniques",
+      "pillarSlug": "/cocktails/spirit-forward-cocktails",
+      "intentMix": "Informational + commercial",
+      "audience": "Enthusiast-first",
+      "testingLevel": "Firsthand tasting required",
+      "estimatedPages": 16,
+      "rationale": "Competitive space, but winnable with precise dilution logic, ingredient substitutions, and home-bar realism.",
+      "subclusters": [
+        [
+          "old fashioned and Manhattan-style riffs",
+          6,
+          "Informational",
+          "/cocktails/old-fashioned-and-manhattan-riffs"
+        ],
+        [
+          "martini, Martinez, and aromatic stirred drinks",
+          5,
+          "Informational",
+          "/cocktails/martini-and-aromatic-stirred-drinks"
+        ],
+        [
+          "bar tools and ice for stirred drinks",
+          5,
+          "Commercial + informational",
+          "/cocktails/stirred-drink-tools-and-ice"
+        ]
+      ]
+    },
+    {
+      "cluster": "Refreshing highballs and spritzes",
+      "pillarTitle": "Refreshing Highballs and Spritzes",
+      "pillarSlug": "/cocktails/highballs-and-spritzes",
+      "intentMix": "Informational",
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Firsthand tasting required",
+      "estimatedPages": 14,
+      "rationale": "Lower competition than classics-heavy queries and easy to make genuinely useful with carbonation and service detail.",
+      "subclusters": [
+        [
+          "gin and citrus highballs",
+          5,
+          "Informational",
+          "/cocktails/gin-highballs-and-citrus-serves"
+        ],
+        [
+          "wine-based spritzes",
+          4,
+          "Informational",
+          "/cocktails/wine-based-spritz-guides"
+        ],
+        [
+          "tall seasonal refreshers",
+          5,
+          "Informational",
+          "/cocktails/tall-seasonal-refreshers"
+        ]
+      ]
+    },
+    {
+      "cluster": "Dessert cocktails",
+      "pillarTitle": "Dessert Cocktails That Still Drink Like Cocktails",
+      "pillarSlug": "/cocktails/dessert-cocktails",
+      "intentMix": "Informational",
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Firsthand tasting required",
+      "estimatedPages": 12,
+      "rationale": "Underserved angle: drinks that finish dessert-like without becoming syrupy or juvenile.",
+      "subclusters": [
+        [
+          "coffee and chocolate cocktails",
+          4,
+          "Informational",
+          "/cocktails/coffee-and-chocolate-cocktails"
+        ],
+        [
+          "cream and flip-style drinks",
+          4,
+          "Informational",
+          "/cocktails/cream-and-flip-style-drinks"
+        ],
+        [
+          "dessert-adjacent stirred or sparkling drinks",
+          4,
+          "Informational",
+          "/cocktails/dessert-adjacent-cocktails"
+        ]
+      ]
+    },
+    {
+      "cluster": "Seasonal cocktails",
+      "pillarTitle": "Seasonal Cocktails for Real Occasions",
+      "pillarSlug": "/cocktails/seasonal-cocktails",
+      "intentMix": "Informational + programmatic support",
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Firsthand tasting required",
+      "estimatedPages": 16,
+      "rationale": "Seasonal and occasion pages are strong for long-tail discovery when they feel curated rather than mass-generated.",
+      "subclusters": [
+        [
+          "spring and brunch drinks",
+          4,
+          "Informational",
+          "/cocktails/spring-and-brunch-cocktails"
+        ],
+        [
+          "summer and patio drinks",
+          4,
+          "Informational",
+          "/cocktails/summer-and-patio-cocktails"
+        ],
+        [
+          "autumn and holiday hosting",
+          4,
+          "Informational",
+          "/cocktails/autumn-and-holiday-cocktails"
+        ],
+        [
+          "winter nightcaps and after-dinner drinks",
+          4,
+          "Informational",
+          "/cocktails/winter-nightcap-cocktails"
+        ]
+      ]
+    },
+    {
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "pillarTitle": "Cocktail Components: Syrups, Infusions, Foams, and Garnishes",
+      "pillarSlug": "/cocktails/cocktail-components",
+      "intentMix": "Informational + commercial",
+      "audience": "Enthusiast-first",
+      "testingLevel": "Firsthand tasting + safety review",
+      "estimatedPages": 14,
+      "rationale": "Component pages build authority and unlock many natural internal links into recipe pages.",
+      "subclusters": [
+        [
+          "syrup design and dilution",
+          4,
+          "Informational",
+          "/cocktails/syrup-design-for-cocktails"
+        ],
+        [
+          "infusions and tinctures",
+          4,
+          "Informational",
+          "/cocktails/infusions-and-tinctures"
+        ],
+        [
+          "foams and texture elements",
+          3,
+          "Informational",
+          "/cocktails/cocktail-foams-and-texture"
+        ],
+        [
+          "garnish strategy and aroma",
+          3,
+          "Commercial + informational",
+          "/cocktails/garnish-strategy-and-tools"
+        ]
+      ]
+    },
+    {
+      "cluster": "Flavor pairing guides",
+      "pillarTitle": "Flavor Pairing Guides for Coffee and Cocktails",
+      "pillarSlug": "/guides/flavor-pairing-guides",
+      "intentMix": "Informational + programmatic support",
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Expert tasting review required",
+      "estimatedPages": 20,
+      "rationale": "This is a defensible angle if based on real sensory logic, not invented tasting poetry.",
+      "subclusters": [
+        [
+          "coffee flavor note pairing guides",
+          8,
+          "Informational + programmatic",
+          "/guides/coffee-flavor-pairing-guides"
+        ],
+        [
+          "cocktail spirit and flavor profile pairings",
+          8,
+          "Informational + programmatic",
+          "/guides/cocktail-flavor-pairing-guides"
+        ],
+        [
+          "occasion and menu pairing logic",
+          4,
+          "Informational",
+          "/guides/drink-pairings-by-occasion"
+        ]
+      ]
+    }
+  ],
+  "opportunities": {
+    "informational": [
+      "How-to brewing guides",
+      "Troubleshooting pages by symptom",
+      "Recipe frameworks and adjustments",
+      "Flavor explanation and expectation-setting pages",
+      "Seasonal and occasion curation pages",
+      "Component technique pages for syrups, infusions, milk texture, and water setup"
+    ],
+    "commercial": [
+      "Best-for grinder guides",
+      "Espresso accessories by workflow bottleneck",
+      "Milk pitchers, scales, kettles, and thermometers",
+      "Bar spoons, mixing glasses, strainers, ice molds, and carbonation tools",
+      "Bean selection pages by brew method or flavor goal",
+      "Filtration and water setup recommendations"
+    ],
+    "programmatic": [
+      "Coffee bean by flavor note",
+      "Coffee bean by roast level and brew method",
+      "Brew method by skill level",
+      "Cocktail by spirit base",
+      "Cocktail by flavor profile",
+      "Drink for occasion or season",
+      "Ingredient hub pages for coffee and cocktail components",
+      "Flavor pair hubs only when enough article depth exists"
+    ]
+  },
+  "pillarPages": [
+    {
+      "cluster": "Coffee brewing fundamentals",
+      "pillarTitle": "Coffee Brewing Fundamentals for Home Brewers",
+      "pillarSlug": "/coffee/coffee-brewing-fundamentals",
+      "supportingArticles": 27,
+      "audience": "Beginner-first",
+      "testingLevel": "Editorial review + selective brewing tests"
+    },
+    {
+      "cluster": "Espresso troubleshooting",
+      "pillarTitle": "Espresso Troubleshooting Guide",
+      "pillarSlug": "/coffee/espresso-troubleshooting",
+      "supportingArticles": 23,
+      "audience": "Enthusiast-first",
+      "testingLevel": "Firsthand brewing required"
+    },
+    {
+      "cluster": "Pour-over recipes",
+      "pillarTitle": "Pour-Over Recipes and Brew Recipes by Device",
+      "pillarSlug": "/coffee/pour-over-recipes",
+      "supportingArticles": 25,
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Firsthand brewing required"
+    },
+    {
+      "cluster": "Milk drinks and cafe-style drinks",
+      "pillarTitle": "Milk Drinks and Cafe-Style Coffee at Home",
+      "pillarSlug": "/coffee/milk-drinks-and-cafe-style-coffee",
+      "supportingArticles": 17,
+      "audience": "Beginner-first",
+      "testingLevel": "Firsthand brewing required"
+    },
+    {
+      "cluster": "Coffee beans and roast levels",
+      "pillarTitle": "Coffee Beans, Roast Levels, and Flavor Expectations",
+      "pillarSlug": "/coffee/coffee-beans-and-roast-levels",
+      "supportingArticles": 21,
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Expert review + tasting verification"
+    },
+    {
+      "cluster": "Water, grinders, extraction, ratios",
+      "pillarTitle": "Water, Grinders, Extraction, and Ratios Explained",
+      "pillarSlug": "/coffee/extraction-water-grinders-ratios",
+      "supportingArticles": 25,
+      "audience": "Enthusiast-first",
+      "testingLevel": "Expert review + selective firsthand tests"
+    },
+    {
+      "cluster": "Original cocktail concepts",
+      "pillarTitle": "Original Cocktail Concepts for the Home Bar",
+      "pillarSlug": "/cocktails/original-cocktail-concepts",
+      "supportingArticles": 23,
+      "audience": "Enthusiast-first",
+      "testingLevel": "Firsthand tasting required"
+    },
+    {
+      "cluster": "Spirit-forward cocktails",
+      "pillarTitle": "Spirit-Forward Cocktails and Stirred Drink Techniques",
+      "pillarSlug": "/cocktails/spirit-forward-cocktails",
+      "supportingArticles": 15,
+      "audience": "Enthusiast-first",
+      "testingLevel": "Firsthand tasting required"
+    },
+    {
+      "cluster": "Refreshing highballs and spritzes",
+      "pillarTitle": "Refreshing Highballs and Spritzes",
+      "pillarSlug": "/cocktails/highballs-and-spritzes",
+      "supportingArticles": 13,
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Firsthand tasting required"
+    },
+    {
+      "cluster": "Dessert cocktails",
+      "pillarTitle": "Dessert Cocktails That Still Drink Like Cocktails",
+      "pillarSlug": "/cocktails/dessert-cocktails",
+      "supportingArticles": 11,
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Firsthand tasting required"
+    },
+    {
+      "cluster": "Seasonal cocktails",
+      "pillarTitle": "Seasonal Cocktails for Real Occasions",
+      "pillarSlug": "/cocktails/seasonal-cocktails",
+      "supportingArticles": 15,
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Firsthand tasting required"
+    },
+    {
+      "cluster": "Syrups, infusions, foams, garnishes",
+      "pillarTitle": "Cocktail Components: Syrups, Infusions, Foams, and Garnishes",
+      "pillarSlug": "/cocktails/cocktail-components",
+      "supportingArticles": 13,
+      "audience": "Enthusiast-first",
+      "testingLevel": "Firsthand tasting + safety review"
+    },
+    {
+      "cluster": "Flavor pairing guides",
+      "pillarTitle": "Flavor Pairing Guides for Coffee and Cocktails",
+      "pillarSlug": "/guides/flavor-pairing-guides",
+      "supportingArticles": 19,
+      "audience": "Beginner to enthusiast",
+      "testingLevel": "Expert tasting review required"
+    }
+  ],
+  "linkingRules": [
+    {
+      "source": "Coffee fundamentals",
+      "target": "Espresso troubleshooting",
+      "logic": "Link from ratio, grind, and extraction explainers into specific espresso symptom pages using problem-first anchors."
+    },
+    {
+      "source": "Coffee fundamentals",
+      "target": "Pour-over recipes",
+      "logic": "Every fundamentals article should surface at least one recipe page and one troubleshooting page for practical next steps."
+    },
+    {
+      "source": "Beans and roast levels",
+      "target": "Pour-over recipes and espresso troubleshooting",
+      "logic": "Use bean selection pages to route readers into recipes or troubleshooting advice tailored to roast level and flavor goal."
+    },
+    {
+      "source": "Water, grinders, extraction, ratios",
+      "target": "All coffee clusters",
+      "logic": "These should act as methodology hubs that contextualize why recipes or fixes work, not isolated science posts."
+    },
+    {
+      "source": "Milk drinks",
+      "target": "Espresso troubleshooting",
+      "logic": "Link milk-drink pages back to espresso base quality pages so readers fix the shot before blaming the milk."
+    },
+    {
+      "source": "Original cocktail concepts",
+      "target": "Flavor pairing guides",
+      "logic": "Original recipes should link to pairing pages that explain why a combination works and what to substitute."
+    },
+    {
+      "source": "Spirit-forward cocktails",
+      "target": "Syrups, infusions, foams, garnishes",
+      "logic": "Component pages should be linked only when they materially improve the featured drink and not as random tangents."
+    },
+    {
+      "source": "Highballs and spritzes",
+      "target": "Seasonal cocktails",
+      "logic": "Use season and occasion pages as discovery hubs for lighter drinks with clear service contexts."
+    },
+    {
+      "source": "Dessert cocktails",
+      "target": "Coffee cluster and flavor pairing guides",
+      "logic": "Cross-link coffee dessert cocktails into coffee flavor-note and after-dinner content where sensory overlap exists."
+    },
+    {
+      "source": "Programmatic pages",
+      "target": "Pillars and tested articles",
+      "logic": "Programmatic pages must mainly link down into tested articles and up into pillar pages, never loop thin pages to each other."
+    }
+  ]
+}

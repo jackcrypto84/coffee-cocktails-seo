@@ -1,0 +1,357 @@
+{
+  "minimumContextualLinks": 3,
+  "maximumContextualLinks": 4,
+  "maximumRelatedReadingLinks": 3,
+  "minimumPillarLinks": 1,
+  "weights": {
+    "sameCategory": 8,
+    "sameCluster": 30,
+    "adjacentCluster": 14,
+    "pillarCandidate": 10,
+    "sharedTags": 5,
+    "sharedBrewingMethods": 6,
+    "sharedFlavorProfiles": 5,
+    "sharedSpiritBases": 6,
+    "sharedIngredients": 4,
+    "sharedOccasions": 3,
+    "sharedSeasons": 2,
+    "sharedSearchIntent": 2,
+    "titleTokenOverlap": 2,
+    "featured": 4
+  },
+  "clusters": {
+    "coffee": {
+      "Coffee brewing fundamentals": [
+        "Water, grinders, extraction, ratios",
+        "Pour-over recipes",
+        "Coffee beans and roast levels"
+      ],
+      "Espresso troubleshooting": [
+        "Milk drinks and cafe-style drinks",
+        "Water, grinders, extraction, ratios"
+      ],
+      "Pour-over recipes": [
+        "Coffee brewing fundamentals",
+        "Water, grinders, extraction, ratios",
+        "Coffee beans and roast levels"
+      ],
+      "Milk drinks and cafe-style drinks": [
+        "Espresso troubleshooting",
+        "Coffee beans and roast levels"
+      ],
+      "Coffee beans and roast levels": [
+        "Pour-over recipes",
+        "Milk drinks and cafe-style drinks",
+        "Coffee brewing fundamentals"
+      ],
+      "Water, grinders, extraction, ratios": [
+        "Coffee brewing fundamentals",
+        "Pour-over recipes",
+        "Espresso troubleshooting"
+      ]
+    },
+    "cocktails": {
+      "Original cocktail concepts": [
+        "Flavor pairing guides",
+        "Syrups, infusions, foams, garnishes",
+        "Spirit-forward cocktails"
+      ],
+      "Spirit-forward cocktails": [
+        "Original cocktail concepts",
+        "Flavor pairing guides",
+        "Seasonal cocktails"
+      ],
+      "Refreshing highballs and spritzes": [
+        "Seasonal cocktails",
+        "Flavor pairing guides",
+        "Original cocktail concepts"
+      ],
+      "Dessert cocktails": [
+        "Flavor pairing guides",
+        "Syrups, infusions, foams, garnishes",
+        "Original cocktail concepts"
+      ],
+      "Seasonal cocktails": [
+        "Refreshing highballs and spritzes",
+        "Flavor pairing guides",
+        "Original cocktail concepts"
+      ],
+      "Syrups, infusions, foams, garnishes": [
+        "Original cocktail concepts",
+        "Flavor pairing guides",
+        "Dessert cocktails"
+      ],
+      "Flavor pairing guides": [
+        "Original cocktail concepts",
+        "Spirit-forward cocktails",
+        "Refreshing highballs and spritzes"
+      ]
+    }
+  },
+  "pillars": {
+    "coffee": {
+      "Coffee brewing fundamentals": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorVariants": [
+            "browse the coffee brewing hub",
+            "see the full coffee guide hub",
+            "explore the coffee fundamentals hub"
+          ]
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorVariants": [
+            "open the main guides index",
+            "see the sitewide guides hub",
+            "browse all practical guides"
+          ]
+        }
+      ],
+      "Espresso troubleshooting": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorVariants": [
+            "return to the espresso and brewing hub",
+            "browse the wider coffee troubleshooting hub",
+            "see the broader coffee guide collection"
+          ]
+        },
+        {
+          "href": "/brewing-method/espresso",
+          "title": "Espresso Method Archive",
+          "anchorVariants": [
+            "see the espresso method archive",
+            "browse more espresso-focused guides",
+            "open the espresso method page"
+          ]
+        }
+      ],
+      "Pour-over recipes": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorVariants": [
+            "browse the pour-over and brewing hub",
+            "see more coffee brewing guides",
+            "open the coffee recipe hub"
+          ]
+        },
+        {
+          "href": "/brewing-method/pour-over",
+          "title": "Pour-Over Method Archive",
+          "anchorVariants": [
+            "see the pour-over method archive",
+            "browse more pour-over guides",
+            "open the pour-over method page"
+          ]
+        }
+      ],
+      "Milk drinks and cafe-style drinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorVariants": [
+            "browse the milk drink guide hub",
+            "see the wider coffee drink archive",
+            "open the coffee drinks hub"
+          ]
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorVariants": [
+            "see more technique guides",
+            "browse the main technique archive",
+            "open the broader guides index"
+          ]
+        }
+      ],
+      "Coffee beans and roast levels": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorVariants": [
+            "browse the bean and brew hub",
+            "see more bean-selection guides",
+            "open the coffee hub"
+          ]
+        },
+        {
+          "href": "/ingredients/coffee-beans",
+          "title": "Coffee Beans Ingredient Page",
+          "anchorVariants": [
+            "see the coffee beans ingredient page",
+            "browse the coffee beans archive",
+            "open the coffee beans reference page"
+          ]
+        }
+      ],
+      "Water, grinders, extraction, ratios": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorVariants": [
+            "browse the extraction and gear hub",
+            "see more practical brewing guides",
+            "open the coffee troubleshooting hub"
+          ]
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorVariants": [
+            "open the main guides index",
+            "see the broader technique library",
+            "browse more practical guides"
+          ]
+        }
+      ]
+    },
+    "cocktails": {
+      "Original cocktail concepts": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorVariants": [
+            "browse the original cocktail hub",
+            "see the full cocktail ideas archive",
+            "open the cocktail concepts hub"
+          ]
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorVariants": [
+            "browse the main guides index",
+            "see the broader technique archive",
+            "open the full guides hub"
+          ]
+        }
+      ],
+      "Spirit-forward cocktails": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorVariants": [
+            "browse the spirit-forward cocktail hub",
+            "see more original cocktail ideas",
+            "open the cocktail archive"
+          ]
+        },
+        {
+          "href": "/flavor-profile/savory",
+          "title": "Savory Flavor Profile",
+          "anchorVariants": [
+            "see the savory flavor profile page",
+            "browse more savory drink ideas",
+            "open the savory cocktail archive"
+          ]
+        }
+      ],
+      "Refreshing highballs and spritzes": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorVariants": [
+            "browse the highball and spritz hub",
+            "see more refreshing cocktail ideas",
+            "open the cocktail archive"
+          ]
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorVariants": [
+            "see the wider technique archive",
+            "browse the main guides index",
+            "open the broader guides hub"
+          ]
+        }
+      ],
+      "Dessert cocktails": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorVariants": [
+            "browse the dessert cocktail hub",
+            "see more after-dinner cocktail ideas",
+            "open the cocktail archive"
+          ]
+        },
+        {
+          "href": "/flavor-profile/chocolatey",
+          "title": "Chocolatey Flavor Profile",
+          "anchorVariants": [
+            "see the chocolatey flavor profile page",
+            "browse more chocolate-led ideas",
+            "open the dessert-leaning flavor archive"
+          ]
+        }
+      ],
+      "Seasonal cocktails": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorVariants": [
+            "browse the seasonal cocktail hub",
+            "see more hosting-friendly drinks",
+            "open the cocktail archive"
+          ]
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorVariants": [
+            "see the main hosting and technique archive",
+            "browse the wider guides hub",
+            "open the sitewide guides index"
+          ]
+        }
+      ],
+      "Syrups, infusions, foams, garnishes": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorVariants": [
+            "browse the cocktail prep and garnish hub",
+            "see more original cocktail techniques",
+            "open the cocktail archive"
+          ]
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorVariants": [
+            "see the broader prep-technique archive",
+            "browse the main guides index",
+            "open the full guides hub"
+          ]
+        }
+      ],
+      "Flavor pairing guides": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorVariants": [
+            "browse the flavor pairing cocktail hub",
+            "see more original cocktail ideas",
+            "open the cocktail archive"
+          ]
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorVariants": [
+            "see the main pairing and technique archive",
+            "browse the wider guides hub",
+            "open the sitewide guides index"
+          ]
+        }
+      ]
+    }
+  }
+}

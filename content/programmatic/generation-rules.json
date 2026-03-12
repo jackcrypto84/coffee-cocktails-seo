@@ -1,0 +1,35 @@
+{
+  "principles": [
+    "Prefer fewer, better pages over exhaustive combinations.",
+    "Every page must include at least three distinctive insights that a generic AI list page would probably miss.",
+    "No page should publish without real curation, internal links, and a reason to exist independent of keyword shape."
+  ],
+  "minimumThresholds": {
+    "recommendations": 3,
+    "internalLinks": 3,
+    "faqItems": 3,
+    "editorialNotes": 2,
+    "distinctiveInsights": 3,
+    "introLength": 220
+  },
+  "antiThinPageChecks": [
+    "Reject pages with fewer than 3 curated recommendations.",
+    "Reject pages with fewer than 3 internal links.",
+    "Reject pages with fewer than 3 FAQ items.",
+    "Reject pages with fewer than 3 distinctive insights.",
+    "Reject pages whose intro is too short or duplicated.",
+    "Flag FAQ blocks with high overlap for manual review.",
+    "Flag any page that relies on tasting-note certainty, brewing claims, or sourcing claims without human review notes."
+  ],
+  "uniquenessRules": [
+    "Intro copy must be generated from template-specific logic, not reused boilerplate.",
+    "FAQ sets must differ by page intent, not just by swapped nouns.",
+    "Recommendations must be curated for the page use case rather than inherited from a global list."
+  ],
+  "manualReviewTriggers": [
+    "Firsthand tasting or brewing claims not yet added",
+    "Fact-heavy sourcing or safety concerns",
+    "Weak recommendation count or repetitive FAQ structure",
+    "Pages whose value depends on real sensory comparisons"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "total": 30,
+  "patterns": [
+    {
+      "pattern": "Coffee bean by flavor note",
+      "slugPattern": "/flavor-profile/[note]/coffee",
+      "variables": "note",
+      "guardrails": "Require at least 6 relevant articles or curated bean examples."
+    },
+    {
+      "pattern": "Coffee bean by roast level",
+      "slugPattern": "/coffee/beans/roast/[roast-level]",
+      "variables": "roast-level",
+      "guardrails": "Only launch with clear sensory expectations and brew-method links."
+    },
+    {
+      "pattern": "Coffee bean by brew method",
+      "slugPattern": "/coffee/beans/best-for/[brew-method]",
+      "variables": "brew-method",
+      "guardrails": "Needs editorial criteria beyond listicle sorting."
+    },
+    {
+      "pattern": "Coffee bean by skill level",
+      "slugPattern": "/coffee/beans/[skill-level]/friendly-options",
+      "variables": "skill-level",
+      "guardrails": "Useful only with decision guidance, not product stuffing."
+    },
+    {
+      "pattern": "Brew method by skill level",
+      "slugPattern": "/brewing-method/[method]/[skill-level]",
+      "variables": "method, skill-level",
+      "guardrails": "Must explain what changes with skill, not just restate basics."
+    },
+    {
+      "pattern": "Brew method by flavor goal",
+      "slugPattern": "/brewing-method/[method]/for-[flavor-goal]",
+      "variables": "method, flavor-goal",
+      "guardrails": "Needs real recipe differences."
+    },
+    {
+      "pattern": "Pour-over recipe by roast level",
+      "slugPattern": "/coffee/pour-over/[device]/[roast-level]-recipe",
+      "variables": "device, roast-level",
+      "guardrails": "Requires tested recipes."
+    },
+    {
+      "pattern": "Pour-over recipe by batch size",
+      "slugPattern": "/coffee/pour-over/[device]/[batch-size]",
+      "variables": "device, batch-size",
+      "guardrails": "Only if batch size changes workflow materially."
+    },
+    {
+      "pattern": "Espresso fix by symptom",
+      "slugPattern": "/coffee/espresso/[symptom]",
+      "variables": "symptom",
+      "guardrails": "High-value only with specific test-backed fixes."
+    },
+    {
+      "pattern": "Espresso fix by machine type",
+      "slugPattern": "/coffee/espresso/[machine-type]/common-fixes",
+      "variables": "machine-type",
+      "guardrails": "Avoid thin pages for obscure machines."
+    },
+    {
+      "pattern": "Milk drink by milk type",
+      "slugPattern": "/coffee/milk-drinks/[milk-type]",
+      "variables": "milk-type",
+      "guardrails": "Needs steaming behavior notes from testing."
+    },
+    {
+      "pattern": "Milk drink by temperature goal",
+      "slugPattern": "/coffee/milk-drinks/[drink-style]/temperature-guide",
+      "variables": "drink-style",
+      "guardrails": "Publish only where technique differs meaningfully."
+    },
+    {
+      "pattern": "Coffee water by brew method",
+      "slugPattern": "/coffee/water/[brew-method]",
+      "variables": "brew-method",
+      "guardrails": "Needs practical setup implications."
+    },
+    {
+      "pattern": "Grinder by use case",
+      "slugPattern": "/coffee/grinders/best-for-[use-case]",
+      "variables": "use-case",
+      "guardrails": "Commercial page must include bottleneck-based advice."
+    },
+    {
+      "pattern": "Ratio guide by drink style",
+      "slugPattern": "/coffee/ratios/[drink-style]",
+      "variables": "drink-style",
+      "guardrails": "Should point to recipes and troubleshooting pages."
+    },
+    {
+      "pattern": "Cocktail by spirit base",
+      "slugPattern": "/ingredients/[spirit-base]",
+      "variables": "spirit-base",
+      "guardrails": "Use as strong hub pages, not thin archives."
+    },
+    {
+      "pattern": "Cocktail by flavor profile",
+      "slugPattern": "/flavor-profile/[profile]/cocktails",
+      "variables": "profile",
+      "guardrails": "Needs curation and substitution logic."
+    },
+    {
+      "pattern": "Cocktail by occasion",
+      "slugPattern": "/guides/cocktails-for-[occasion]",
+      "variables": "occasion",
+      "guardrails": "Only with distinctive service context."
+    },
+    {
+      "pattern": "Cocktail by season",
+      "slugPattern": "/guides/[season]-cocktails",
+      "variables": "season",
+      "guardrails": "Include weather, hosting, and ingredient logic."
+    },
+    {
+      "pattern": "Cocktail by glassware style",
+      "slugPattern": "/cocktails/by-glass/[glass-style]",
+      "variables": "glass-style",
+      "guardrails": "Low priority unless serving context is strong."
+    },
+    {
+      "pattern": "Cocktail by dilution style",
+      "slugPattern": "/cocktails/[style]/dilution-guide",
+      "variables": "style",
+      "guardrails": "Best used sparingly for enthusiast content."
+    },
+    {
+      "pattern": "Highball by spirit base",
+      "slugPattern": "/cocktails/highballs/[spirit-base]",
+      "variables": "spirit-base",
+      "guardrails": "Needs carbonation and ice guidance."
+    },
+    {
+      "pattern": "Spritz by flavor family",
+      "slugPattern": "/cocktails/spritz/[flavor-family]",
+      "variables": "flavor-family",
+      "guardrails": "Should avoid repetitive body copy."
+    },
+    {
+      "pattern": "Dessert cocktail by dessert profile",
+      "slugPattern": "/cocktails/dessert/[dessert-profile]",
+      "variables": "dessert-profile",
+      "guardrails": "Only if profile changes recipe logic."
+    },
+    {
+      "pattern": "Syrup by use case",
+      "slugPattern": "/cocktails/components/syrups/[use-case]",
+      "variables": "use-case",
+      "guardrails": "Must explain ratio and shelf life clearly."
+    },
+    {
+      "pattern": "Infusion by ingredient family",
+      "slugPattern": "/cocktails/components/infusions/[ingredient-family]",
+      "variables": "ingredient-family",
+      "guardrails": "Needs safety and over-extraction warnings."
+    },
+    {
+      "pattern": "Garnish by aroma profile",
+      "slugPattern": "/cocktails/garnishes/[aroma-profile]",
+      "variables": "aroma-profile",
+      "guardrails": "Should link into relevant recipes and pairings."
+    },
+    {
+      "pattern": "Coffee flavor pair by note",
+      "slugPattern": "/guides/coffee-pairings/[note]",
+      "variables": "note",
+      "guardrails": "Needs real pairing logic, not invented poetry."
+    },
+    {
+      "pattern": "Cocktail flavor pair by spirit and note",
+      "slugPattern": "/guides/cocktail-pairings/[spirit]/[note]",
+      "variables": "spirit, note",
+      "guardrails": "Requires tested examples and substitution notes."
+    },
+    {
+      "pattern": "Drink for season and occasion",
+      "slugPattern": "/guides/[season]-drinks-for-[occasion]",
+      "variables": "season, occasion",
+      "guardrails": "Only publish combinations with real editorial demand."
+    }
+  ]
+}

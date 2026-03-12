@@ -1,0 +1,81 @@
+{
+  "v60-bloom-timing-guide": {
+    "forceLinks": ["why-your-pour-over-tastes-bitter", "hand-grinder-upgrade-guide"],
+    "customAnchors": {
+      "why-your-pour-over-tastes-bitter": [
+        "see the bitter pour-over troubleshooting guide",
+        "read the fastest fixes for bitter pour-over"
+      ]
+    },
+    "editorialNotes": [
+      "Use the forced troubleshooting link after any section that mentions uneven saturation or dry finish.",
+      "Add a human brew note if bloom timing guidance is based on a specific roast age range."
+    ]
+  },
+  "espresso-yield-ratios-explained": {
+    "forceLinks": ["microfoam-at-home"],
+    "blockLinks": ["hand-grinder-upgrade-guide"],
+    "editorialNotes": [
+      "Prefer linking into milk-drink technique when discussing ratio choices for cappuccinos or flat whites."
+    ]
+  },
+  "microfoam-at-home": {
+    "forceLinks": ["espresso-yield-ratios-explained", "decaf-for-espresso-milk-drinks"],
+    "customAnchors": {
+      "decaf-for-espresso-milk-drinks": [
+        "see how decaf behaves in milk drinks",
+        "read the decaf guide for milk-based espresso drinks"
+      ]
+    }
+  },
+  "hand-grinder-upgrade-guide": {
+    "forceLinks": ["v60-bloom-timing-guide"],
+    "editorialNotes": [
+      "Keep one money-adjacent link to a practical technique article so the page does not feel purely commercial."
+    ]
+  },
+  "why-your-pour-over-tastes-bitter": {
+    "forceLinks": ["v60-bloom-timing-guide", "hand-grinder-upgrade-guide"],
+    "blockLinks": ["decaf-for-espresso-milk-drinks"]
+  },
+  "decaf-for-espresso-milk-drinks": {
+    "forceLinks": ["microfoam-at-home"],
+    "editorialNotes": [
+      "If the article discusses solubility differences, keep a manual fact-check note beside the recommendation block."
+    ]
+  },
+  "sesame-orange-old-fashioned": {
+    "forceLinks": ["cold-brew-negroni-riff", "smoked-cherry-sour"],
+    "editorialNotes": [
+      "Use one forced link near the section on savory-sweet balance and one in the closing riff section."
+    ]
+  },
+  "yuzu-gimlet-riff": {
+    "forceLinks": ["clarified-pineapple-highball", "rosemary-apricot-spritz"]
+  },
+  "clarified-pineapple-highball": {
+    "forceLinks": ["rosemary-apricot-spritz"],
+    "customAnchors": {
+      "rosemary-apricot-spritz": [
+        "see another bright, hosting-friendly tall drink",
+        "read the spring spritz that leans herbal instead of tropical"
+      ]
+    }
+  },
+  "rosemary-apricot-spritz": {
+    "forceLinks": ["clarified-pineapple-highball"],
+    "editorialNotes": [
+      "Surface one adjacent-cluster link into original cocktail design so the page earns broader discovery traffic."
+    ]
+  },
+  "cold-brew-negroni-riff": {
+    "forceLinks": ["sesame-orange-old-fashioned"],
+    "blockLinks": ["clarified-pineapple-highball"]
+  },
+  "smoked-cherry-sour": {
+    "forceLinks": ["sesame-orange-old-fashioned"],
+    "editorialNotes": [
+      "Add a firsthand tasting note before publishing any recommendation that compares smoke levels across recipes."
+    ]
+  }
+}

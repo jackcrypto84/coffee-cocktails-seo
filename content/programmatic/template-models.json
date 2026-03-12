@@ -1,0 +1,101 @@
+{
+  "templates": [
+    {
+      "id": "coffee-beans-by-flavor-note",
+      "routePattern": "/coffee/beans/flavor-note/[note]",
+      "purpose": "Curate bean choices and brew guidance by flavor note without pretending tasting notes are universal.",
+      "requiredFields": [
+        "subjectLabel",
+        "recommendations",
+        "distinctiveInsights",
+        "faq",
+        "editorialNotes",
+        "humanCommentaryPrompt"
+      ]
+    },
+    {
+      "id": "brew-methods-by-difficulty",
+      "routePattern": "/brewing-method/[method]/[difficulty]",
+      "purpose": "Explain how brew difficulty changes workflow, consistency, and expected payoff.",
+      "requiredFields": [
+        "subjectLabel",
+        "difficulty",
+        "recommendations",
+        "distinctiveInsights",
+        "faq",
+        "editorialNotes",
+        "humanCommentaryPrompt"
+      ]
+    },
+    {
+      "id": "drinks-by-occasion",
+      "routePattern": "/guides/drinks-for-[occasion]",
+      "purpose": "Curate drinks by hosting context, pacing, and service practicality.",
+      "requiredFields": [
+        "subjectLabel",
+        "occasion",
+        "recommendations",
+        "distinctiveInsights",
+        "faq",
+        "editorialNotes",
+        "humanCommentaryPrompt"
+      ]
+    },
+    {
+      "id": "cocktails-by-base-spirit",
+      "routePattern": "/cocktails/base-spirit/[spirit]",
+      "purpose": "Turn base-spirit hubs into useful flavor and structure guides rather than thin archives.",
+      "requiredFields": [
+        "subjectLabel",
+        "spirit",
+        "recommendations",
+        "distinctiveInsights",
+        "faq",
+        "editorialNotes",
+        "humanCommentaryPrompt"
+      ]
+    },
+    {
+      "id": "cocktails-by-flavor-profile",
+      "routePattern": "/cocktails/flavor-profile/[profile]",
+      "purpose": "Cluster cocktails by practical flavor outcome and substitution logic.",
+      "requiredFields": [
+        "subjectLabel",
+        "profile",
+        "recommendations",
+        "distinctiveInsights",
+        "faq",
+        "editorialNotes",
+        "humanCommentaryPrompt"
+      ]
+    },
+    {
+      "id": "coffee-drinks-by-milk-texture",
+      "routePattern": "/coffee/milk-texture/[texture]",
+      "purpose": "Link milk texture to drink identity, drink choice, and home-steaming reality.",
+      "requiredFields": [
+        "subjectLabel",
+        "texture",
+        "recommendations",
+        "distinctiveInsights",
+        "faq",
+        "editorialNotes",
+        "humanCommentaryPrompt"
+      ]
+    },
+    {
+      "id": "ingredient-pairing-pages",
+      "routePattern": "/guides/pairings/[ingredient-a]-with-[ingredient-b]",
+      "purpose": "Create sensory pairing pages that teach structure, not just idea lists.",
+      "requiredFields": [
+        "subjectLabel",
+        "pairing",
+        "recommendations",
+        "distinctiveInsights",
+        "faq",
+        "editorialNotes",
+        "humanCommentaryPrompt"
+      ]
+    }
+  ]
+}

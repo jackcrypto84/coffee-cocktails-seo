@@ -1,0 +1,2314 @@
+{
+  "coffee": [
+    {
+      "slug": "v60-bloom-timing-guide",
+      "category": "coffee",
+      "title": "V60 Bloom Timing Guide: How Long to Bloom for Cleaner, Sweeter Cups",
+      "cluster": "Pour-over recipes",
+      "source": "live",
+      "relatedReadingHeading": "Pour-over next reads",
+      "relatedReadingIntro": "Start with Why Your Pour-Over Tastes Bitter: The Fastest Fixes to Try First, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "why-your-pour-over-tastes-bitter",
+          "href": "/coffee/why-your-pour-over-tastes-bitter",
+          "category": "coffee",
+          "title": "Why Your Pour-Over Tastes Bitter: The Fastest Fixes to Try First",
+          "cluster": "Pour-over recipes",
+          "anchorText": "see the bitter pour-over troubleshooting guide",
+          "reason": "Stays inside pour-over recipes and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "hand-grinder-upgrade-guide",
+          "href": "/coffee/hand-grinder-upgrade-guide",
+          "category": "coffee",
+          "title": "When a Hand Grinder Upgrade Actually Improves Your Coffee",
+          "cluster": "Water, grinders, extraction, ratios",
+          "anchorText": "see the related guide on When a Hand Grinder Upgrade Actually Improves Your Coffee",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "espresso-yield-ratios-explained",
+          "href": "/coffee/espresso-yield-ratios-explained",
+          "category": "coffee",
+          "title": "Espresso Yield Ratios Explained: When to Pull Short, Standard, or Long",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "see the related guide on When to Pull Short, Standard, or Long",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 35,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "href": "/coffee/how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "category": "coffee",
+          "title": "How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "see the related guide on How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 31,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "browse the pour-over and brewing hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/brewing-method/pour-over",
+          "title": "Pour-Over Method Archive",
+          "anchorText": "see the pour-over method archive",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "href": "/coffee/why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "category": "coffee",
+          "title": "Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "see the related guide on Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 31,
+          "forced": false
+        },
+        {
+          "slug": "coffee-grind-size-basics-without-the-usual-vague-advice",
+          "href": "/coffee/coffee-grind-size-basics-without-the-usual-vague-advice",
+          "category": "coffee",
+          "title": "Coffee Grind Size Basics Without the Usual Vague Advice",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "see the related guide on Coffee Grind Size Basics",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 28,
+          "forced": false
+        },
+        {
+          "slug": "how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "href": "/coffee/how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "category": "coffee",
+          "title": "How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "see the related guide on How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 28,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Use the forced troubleshooting link after any section that mentions uneven saturation or dry finish.",
+        "Add a human brew note if bloom timing guidance is based on a specific roast age range.",
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "espresso-yield-ratios-explained",
+      "category": "coffee",
+      "title": "Espresso Yield Ratios Explained: When to Pull Short, Standard, or Long",
+      "cluster": "Espresso troubleshooting",
+      "source": "live",
+      "relatedReadingHeading": "Espresso next reads",
+      "relatedReadingIntro": "Start with How to Steam Microfoam at Home Without Turning Milk Into Hot Bubbles, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "microfoam-at-home",
+          "href": "/coffee/microfoam-at-home",
+          "category": "coffee",
+          "title": "How to Steam Microfoam at Home Without Turning Milk Into Hot Bubbles",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on How to Steam Microfoam at Home",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "decaf-for-espresso-milk-drinks",
+          "href": "/coffee/decaf-for-espresso-milk-drinks",
+          "category": "coffee",
+          "title": "Choosing Decaf for Espresso Milk Drinks Without Ending Up With Flat Flavor",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on Choosing Decaf for Espresso Milk Drinks",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 72,
+          "forced": false
+        },
+        {
+          "slug": "espresso-yield-ratios-for-different-roast-styles",
+          "href": "/coffee/espresso-yield-ratios-for-different-roast-styles",
+          "category": "coffee",
+          "title": "Espresso Yield Ratios for Different Roast Styles",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on Espresso Yield Ratios for Different Roast Styles",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 66,
+          "forced": false
+        },
+        {
+          "slug": "espresso-shot-time-vs-taste-what-to-fix-first",
+          "href": "/coffee/espresso-shot-time-vs-taste-what-to-fix-first",
+          "category": "coffee",
+          "title": "Espresso Shot Time vs Taste: What to Fix First",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on What to Fix First",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 64,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "return to the espresso and brewing hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/brewing-method/espresso",
+          "title": "Espresso Method Archive",
+          "anchorText": "see the espresso method archive",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "what-to-change-when-espresso-tastes-sour-and-salty",
+          "href": "/coffee/what-to-change-when-espresso-tastes-sour-and-salty",
+          "category": "coffee",
+          "title": "What to Change When Espresso Tastes Sour and Salty",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on What to Change When Espresso Tastes Sour and Salty",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 64,
+          "forced": false
+        },
+        {
+          "slug": "how-puck-prep-affects-espresso-more-than-fancy-accessories-promise",
+          "href": "/coffee/how-puck-prep-affects-espresso-more-than-fancy-accessories-promise",
+          "category": "coffee",
+          "title": "How Puck Prep Affects Espresso More Than Fancy Accessories Promise",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on How Puck Prep Affects Espresso More Than Fancy Accessories Promise",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 62,
+          "forced": false
+        },
+        {
+          "slug": "why-your-espresso-runs-fast-and-still-tastes-bitter",
+          "href": "/coffee/why-your-espresso-runs-fast-and-still-tastes-bitter",
+          "category": "coffee",
+          "title": "Why Your Espresso Runs Fast and Still Tastes Bitter",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on Why Your Espresso Runs Fast and Still Tastes Bitter",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 62,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Prefer linking into milk-drink technique when discussing ratio choices for cappuccinos or flat whites.",
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "microfoam-at-home",
+      "category": "coffee",
+      "title": "How to Steam Microfoam at Home Without Turning Milk Into Hot Bubbles",
+      "cluster": "Espresso troubleshooting",
+      "source": "live",
+      "relatedReadingHeading": "Espresso next reads",
+      "relatedReadingIntro": "Start with Espresso Yield Ratios Explained: When to Pull Short, Standard, or Long, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "espresso-yield-ratios-explained",
+          "href": "/coffee/espresso-yield-ratios-explained",
+          "category": "coffee",
+          "title": "Espresso Yield Ratios Explained: When to Pull Short, Standard, or Long",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on When to Pull Short, Standard, or Long",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "decaf-for-espresso-milk-drinks",
+          "href": "/coffee/decaf-for-espresso-milk-drinks",
+          "category": "coffee",
+          "title": "Choosing Decaf for Espresso Milk Drinks Without Ending Up With Flat Flavor",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "see how decaf behaves in milk drinks",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "espresso-shot-time-vs-taste-what-to-fix-first",
+          "href": "/coffee/espresso-shot-time-vs-taste-what-to-fix-first",
+          "category": "coffee",
+          "title": "Espresso Shot Time vs Taste: What to Fix First",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on What to Fix First",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 55,
+          "forced": false
+        },
+        {
+          "slug": "espresso-yield-ratios-for-different-roast-styles",
+          "href": "/coffee/espresso-yield-ratios-for-different-roast-styles",
+          "category": "coffee",
+          "title": "Espresso Yield Ratios for Different Roast Styles",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on Espresso Yield Ratios for Different Roast Styles",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 55,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "return to the espresso and brewing hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/brewing-method/espresso",
+          "title": "Espresso Method Archive",
+          "anchorText": "see the espresso method archive",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "how-puck-prep-affects-espresso-more-than-fancy-accessories-promise",
+          "href": "/coffee/how-puck-prep-affects-espresso-more-than-fancy-accessories-promise",
+          "category": "coffee",
+          "title": "How Puck Prep Affects Espresso More Than Fancy Accessories Promise",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on How Puck Prep Affects Espresso More Than Fancy Accessories Promise",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 55,
+          "forced": false
+        },
+        {
+          "slug": "what-to-change-when-espresso-tastes-sour-and-salty",
+          "href": "/coffee/what-to-change-when-espresso-tastes-sour-and-salty",
+          "category": "coffee",
+          "title": "What to Change When Espresso Tastes Sour and Salty",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on What to Change When Espresso Tastes Sour and Salty",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 55,
+          "forced": false
+        },
+        {
+          "slug": "why-your-espresso-runs-fast-and-still-tastes-bitter",
+          "href": "/coffee/why-your-espresso-runs-fast-and-still-tastes-bitter",
+          "category": "coffee",
+          "title": "Why Your Espresso Runs Fast and Still Tastes Bitter",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on Why Your Espresso Runs Fast and Still Tastes Bitter",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 55,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "hand-grinder-upgrade-guide",
+      "category": "coffee",
+      "title": "When a Hand Grinder Upgrade Actually Improves Your Coffee",
+      "cluster": "Water, grinders, extraction, ratios",
+      "source": "live",
+      "relatedReadingHeading": "Water, grinders, extraction, ratio next reads",
+      "relatedReadingIntro": "Start with V60 Bloom Timing Guide: How Long to Bloom for Cleaner, Sweeter Cups, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "v60-bloom-timing-guide",
+          "href": "/coffee/v60-bloom-timing-guide",
+          "category": "coffee",
+          "title": "V60 Bloom Timing Guide: How Long to Bloom for Cleaner, Sweeter Cups",
+          "cluster": "Pour-over recipes",
+          "anchorText": "see the related guide on How Long to Bloom for Cleaner, Sweeter Cups",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "espresso-yield-ratios-explained",
+          "href": "/coffee/espresso-yield-ratios-explained",
+          "category": "coffee",
+          "title": "Espresso Yield Ratios Explained: When to Pull Short, Standard, or Long",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "see the related guide on When to Pull Short, Standard, or Long",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 58,
+          "forced": false
+        },
+        {
+          "slug": "decaf-for-espresso-milk-drinks",
+          "href": "/coffee/decaf-for-espresso-milk-drinks",
+          "category": "coffee",
+          "title": "Choosing Decaf for Espresso Milk Drinks Without Ending Up With Flat Flavor",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "see the related guide on Choosing Decaf for Espresso Milk Drinks",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 49,
+          "forced": false
+        },
+        {
+          "slug": "microfoam-at-home",
+          "href": "/coffee/microfoam-at-home",
+          "category": "coffee",
+          "title": "How to Steam Microfoam at Home Without Turning Milk Into Hot Bubbles",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "see the related guide on How to Steam Microfoam at Home",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 47,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "browse the extraction and gear hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "open the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "why-your-pour-over-tastes-bitter",
+          "href": "/coffee/why-your-pour-over-tastes-bitter",
+          "category": "coffee",
+          "title": "Why Your Pour-Over Tastes Bitter: The Fastest Fixes to Try First",
+          "cluster": "Pour-over recipes",
+          "anchorText": "see the related guide on The Fastest Fixes to Try First",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 47,
+          "forced": false
+        },
+        {
+          "slug": "what-to-change-when-espresso-tastes-sour-and-salty",
+          "href": "/coffee/what-to-change-when-espresso-tastes-sour-and-salty",
+          "category": "coffee",
+          "title": "What to Change When Espresso Tastes Sour and Salty",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "see the related guide on What to Change When Espresso Tastes Sour and Salty",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 39,
+          "forced": false
+        },
+        {
+          "slug": "espresso-shot-time-vs-taste-what-to-fix-first",
+          "href": "/coffee/espresso-shot-time-vs-taste-what-to-fix-first",
+          "category": "coffee",
+          "title": "Espresso Shot Time vs Taste: What to Fix First",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "see the related guide on What to Fix First",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 37,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep one money-adjacent link to a practical technique article so the page does not feel purely commercial.",
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "why-your-pour-over-tastes-bitter",
+      "category": "coffee",
+      "title": "Why Your Pour-Over Tastes Bitter: The Fastest Fixes to Try First",
+      "cluster": "Pour-over recipes",
+      "source": "live",
+      "relatedReadingHeading": "Pour-over next reads",
+      "relatedReadingIntro": "Start with V60 Bloom Timing Guide: How Long to Bloom for Cleaner, Sweeter Cups, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "v60-bloom-timing-guide",
+          "href": "/coffee/v60-bloom-timing-guide",
+          "category": "coffee",
+          "title": "V60 Bloom Timing Guide: How Long to Bloom for Cleaner, Sweeter Cups",
+          "cluster": "Pour-over recipes",
+          "anchorText": "read the companion guide on How Long to Bloom for Cleaner, Sweeter Cups",
+          "reason": "Stays inside pour-over recipes and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "hand-grinder-upgrade-guide",
+          "href": "/coffee/hand-grinder-upgrade-guide",
+          "category": "coffee",
+          "title": "When a Hand Grinder Upgrade Actually Improves Your Coffee",
+          "cluster": "Water, grinders, extraction, ratios",
+          "anchorText": "see the related guide on When a Hand Grinder Upgrade Actually Improves Your Coffee",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "href": "/coffee/why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "category": "coffee",
+          "title": "Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "see the related guide on Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 37,
+          "forced": false
+        },
+        {
+          "slug": "how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "href": "/coffee/how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "category": "coffee",
+          "title": "How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "see the related guide on How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 35,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "browse the pour-over and brewing hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/brewing-method/pour-over",
+          "title": "Pour-Over Method Archive",
+          "anchorText": "see the pour-over method archive",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "coffee-grind-size-basics-without-the-usual-vague-advice",
+          "href": "/coffee/coffee-grind-size-basics-without-the-usual-vague-advice",
+          "category": "coffee",
+          "title": "Coffee Grind Size Basics Without the Usual Vague Advice",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "see the related guide on Coffee Grind Size Basics",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 33,
+          "forced": false
+        },
+        {
+          "slug": "espresso-yield-ratios-explained",
+          "href": "/coffee/espresso-yield-ratios-explained",
+          "category": "coffee",
+          "title": "Espresso Yield Ratios Explained: When to Pull Short, Standard, or Long",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "see the related guide on When to Pull Short, Standard, or Long",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 33,
+          "forced": false
+        },
+        {
+          "slug": "how-to-store-coffee-beans-without-making-them-taste-flat",
+          "href": "/coffee/how-to-store-coffee-beans-without-making-them-taste-flat",
+          "category": "coffee",
+          "title": "How to Store Coffee Beans Without Making Them Taste Flat",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "see the related guide on How to Store Coffee Beans",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 33,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "decaf-for-espresso-milk-drinks",
+      "category": "coffee",
+      "title": "Choosing Decaf for Espresso Milk Drinks Without Ending Up With Flat Flavor",
+      "cluster": "Espresso troubleshooting",
+      "source": "live",
+      "relatedReadingHeading": "Espresso next reads",
+      "relatedReadingIntro": "Start with How to Steam Microfoam at Home Without Turning Milk Into Hot Bubbles, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "microfoam-at-home",
+          "href": "/coffee/microfoam-at-home",
+          "category": "coffee",
+          "title": "How to Steam Microfoam at Home Without Turning Milk Into Hot Bubbles",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on How to Steam Microfoam at Home",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "espresso-yield-ratios-explained",
+          "href": "/coffee/espresso-yield-ratios-explained",
+          "category": "coffee",
+          "title": "Espresso Yield Ratios Explained: When to Pull Short, Standard, or Long",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on When to Pull Short, Standard, or Long",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 76,
+          "forced": false
+        },
+        {
+          "slug": "espresso-shot-time-vs-taste-what-to-fix-first",
+          "href": "/coffee/espresso-shot-time-vs-taste-what-to-fix-first",
+          "category": "coffee",
+          "title": "Espresso Shot Time vs Taste: What to Fix First",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on What to Fix First",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 62,
+          "forced": false
+        },
+        {
+          "slug": "espresso-yield-ratios-for-different-roast-styles",
+          "href": "/coffee/espresso-yield-ratios-for-different-roast-styles",
+          "category": "coffee",
+          "title": "Espresso Yield Ratios for Different Roast Styles",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on Espresso Yield Ratios for Different Roast Styles",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 60,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "return to the espresso and brewing hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/brewing-method/espresso",
+          "title": "Espresso Method Archive",
+          "anchorText": "see the espresso method archive",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "how-puck-prep-affects-espresso-more-than-fancy-accessories-promise",
+          "href": "/coffee/how-puck-prep-affects-espresso-more-than-fancy-accessories-promise",
+          "category": "coffee",
+          "title": "How Puck Prep Affects Espresso More Than Fancy Accessories Promise",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on How Puck Prep Affects Espresso More Than Fancy Accessories Promise",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 60,
+          "forced": false
+        },
+        {
+          "slug": "what-to-change-when-espresso-tastes-sour-and-salty",
+          "href": "/coffee/what-to-change-when-espresso-tastes-sour-and-salty",
+          "category": "coffee",
+          "title": "What to Change When Espresso Tastes Sour and Salty",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on What to Change When Espresso Tastes Sour and Salty",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 60,
+          "forced": false
+        },
+        {
+          "slug": "why-your-espresso-runs-fast-and-still-tastes-bitter",
+          "href": "/coffee/why-your-espresso-runs-fast-and-still-tastes-bitter",
+          "category": "coffee",
+          "title": "Why Your Espresso Runs Fast and Still Tastes Bitter",
+          "cluster": "Espresso troubleshooting",
+          "anchorText": "read the companion guide on Why Your Espresso Runs Fast and Still Tastes Bitter",
+          "reason": "Stays inside espresso troubleshooting and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 60,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "If the article discusses solubility differences, keep a manual fact-check note beside the recommendation block.",
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+      "category": "coffee",
+      "title": "How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+      "cluster": "Coffee brewing fundamentals",
+      "source": "strategy",
+      "relatedReadingHeading": "Coffee brewing fundamental next reads",
+      "relatedReadingIntro": "Start with Why Your Coffee Tastes Better on Some Mornings Than Others, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "href": "/coffee/why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "category": "coffee",
+          "title": "Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 70,
+          "forced": false
+        },
+        {
+          "slug": "coffee-grind-size-basics-without-the-usual-vague-advice",
+          "href": "/coffee/coffee-grind-size-basics-without-the-usual-vague-advice",
+          "category": "coffee",
+          "title": "Coffee Grind Size Basics Without the Usual Vague Advice",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on Coffee Grind Size Basics",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "how-to-store-coffee-beans-without-making-them-taste-flat",
+          "href": "/coffee/how-to-store-coffee-beans-without-making-them-taste-flat",
+          "category": "coffee",
+          "title": "How to Store Coffee Beans Without Making Them Taste Flat",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How to Store Coffee Beans",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "the-real-difference-between-underextracted-and-weak-coffee",
+          "href": "/coffee/the-real-difference-between-underextracted-and-weak-coffee",
+          "category": "coffee",
+          "title": "The Real Difference Between Underextracted and Weak Coffee",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on The Real Difference Between Underextracted and Weak Coffee",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "browse the coffee brewing hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "open the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "what-coffee-freshness-actually-means-for-flavor-and-extraction",
+          "href": "/coffee/what-coffee-freshness-actually-means-for-flavor-and-extraction",
+          "category": "coffee",
+          "title": "What Coffee Freshness Actually Means for Flavor and Extraction",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on What Coffee Freshness Actually Means for Flavor and Extraction",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "when-a-better-kettle-improves-coffee-and-when-it-does-not",
+          "href": "/coffee/when-a-better-kettle-improves-coffee-and-when-it-does-not",
+          "category": "coffee",
+          "title": "When a Better Kettle Improves Coffee and When It Does Not",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on When a Better Kettle Improves Coffee and When It Does Not",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "href": "/coffee/how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "category": "coffee",
+          "title": "How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 54,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": false
+    },
+    {
+      "slug": "the-real-difference-between-underextracted-and-weak-coffee",
+      "category": "coffee",
+      "title": "The Real Difference Between Underextracted and Weak Coffee",
+      "cluster": "Coffee brewing fundamentals",
+      "source": "strategy",
+      "relatedReadingHeading": "Coffee brewing fundamental next reads",
+      "relatedReadingIntro": "Start with Coffee Grind Size Basics Without the Usual Vague Advice, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "coffee-grind-size-basics-without-the-usual-vague-advice",
+          "href": "/coffee/coffee-grind-size-basics-without-the-usual-vague-advice",
+          "category": "coffee",
+          "title": "Coffee Grind Size Basics Without the Usual Vague Advice",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on Coffee Grind Size Basics",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "href": "/coffee/how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "category": "coffee",
+          "title": "How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "how-to-store-coffee-beans-without-making-them-taste-flat",
+          "href": "/coffee/how-to-store-coffee-beans-without-making-them-taste-flat",
+          "category": "coffee",
+          "title": "How to Store Coffee Beans Without Making Them Taste Flat",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How to Store Coffee Beans",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "what-coffee-freshness-actually-means-for-flavor-and-extraction",
+          "href": "/coffee/what-coffee-freshness-actually-means-for-flavor-and-extraction",
+          "category": "coffee",
+          "title": "What Coffee Freshness Actually Means for Flavor and Extraction",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on What Coffee Freshness Actually Means for Flavor and Extraction",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "browse the coffee brewing hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "open the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "when-a-better-kettle-improves-coffee-and-when-it-does-not",
+          "href": "/coffee/when-a-better-kettle-improves-coffee-and-when-it-does-not",
+          "category": "coffee",
+          "title": "When a Better Kettle Improves Coffee and When It Does Not",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on When a Better Kettle Improves Coffee and When It Does Not",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "href": "/coffee/why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "category": "coffee",
+          "title": "Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "href": "/coffee/how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "category": "coffee",
+          "title": "How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 54,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": false
+    },
+    {
+      "slug": "coffee-grind-size-basics-without-the-usual-vague-advice",
+      "category": "coffee",
+      "title": "Coffee Grind Size Basics Without the Usual Vague Advice",
+      "cluster": "Coffee brewing fundamentals",
+      "source": "strategy",
+      "relatedReadingHeading": "Coffee brewing fundamental next reads",
+      "relatedReadingIntro": "Start with How Brew Ratio Changes Coffee More Than Most Beginners Expect, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "href": "/coffee/how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "category": "coffee",
+          "title": "How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "how-to-store-coffee-beans-without-making-them-taste-flat",
+          "href": "/coffee/how-to-store-coffee-beans-without-making-them-taste-flat",
+          "category": "coffee",
+          "title": "How to Store Coffee Beans Without Making Them Taste Flat",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How to Store Coffee Beans",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "the-real-difference-between-underextracted-and-weak-coffee",
+          "href": "/coffee/the-real-difference-between-underextracted-and-weak-coffee",
+          "category": "coffee",
+          "title": "The Real Difference Between Underextracted and Weak Coffee",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on The Real Difference Between Underextracted and Weak Coffee",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "what-coffee-freshness-actually-means-for-flavor-and-extraction",
+          "href": "/coffee/what-coffee-freshness-actually-means-for-flavor-and-extraction",
+          "category": "coffee",
+          "title": "What Coffee Freshness Actually Means for Flavor and Extraction",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on What Coffee Freshness Actually Means for Flavor and Extraction",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "browse the coffee brewing hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "open the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "when-a-better-kettle-improves-coffee-and-when-it-does-not",
+          "href": "/coffee/when-a-better-kettle-improves-coffee-and-when-it-does-not",
+          "category": "coffee",
+          "title": "When a Better Kettle Improves Coffee and When It Does Not",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on When a Better Kettle Improves Coffee and When It Does Not",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "href": "/coffee/why-your-coffee-tastes-better-on-some-mornings-than-others",
+          "category": "coffee",
+          "title": "Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on Why Your Coffee Tastes Better on Some Mornings Than Others",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "href": "/coffee/how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "category": "coffee",
+          "title": "How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 54,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": false
+    },
+    {
+      "slug": "why-your-coffee-tastes-better-on-some-mornings-than-others",
+      "category": "coffee",
+      "title": "Why Your Coffee Tastes Better on Some Mornings Than Others",
+      "cluster": "Coffee brewing fundamentals",
+      "source": "strategy",
+      "relatedReadingHeading": "Coffee brewing fundamental next reads",
+      "relatedReadingIntro": "Start with How Brew Ratio Changes Coffee More Than Most Beginners Expect, then use Coffee Brewing Guides Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "href": "/coffee/how-brew-ratio-changes-coffee-more-than-most-beginners-expect",
+          "category": "coffee",
+          "title": "How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How Brew Ratio Changes Coffee More Than Most Beginners Expect",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 70,
+          "forced": false
+        },
+        {
+          "slug": "when-a-better-kettle-improves-coffee-and-when-it-does-not",
+          "href": "/coffee/when-a-better-kettle-improves-coffee-and-when-it-does-not",
+          "category": "coffee",
+          "title": "When a Better Kettle Improves Coffee and When It Does Not",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on When a Better Kettle Improves Coffee and When It Does Not",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 70,
+          "forced": false
+        },
+        {
+          "slug": "coffee-grind-size-basics-without-the-usual-vague-advice",
+          "href": "/coffee/coffee-grind-size-basics-without-the-usual-vague-advice",
+          "category": "coffee",
+          "title": "Coffee Grind Size Basics Without the Usual Vague Advice",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on Coffee Grind Size Basics",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "how-to-store-coffee-beans-without-making-them-taste-flat",
+          "href": "/coffee/how-to-store-coffee-beans-without-making-them-taste-flat",
+          "category": "coffee",
+          "title": "How to Store Coffee Beans Without Making Them Taste Flat",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How to Store Coffee Beans",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/coffee",
+          "title": "Coffee Brewing Guides Hub",
+          "anchorText": "browse the coffee brewing hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "open the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader coffee architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "the-real-difference-between-underextracted-and-weak-coffee",
+          "href": "/coffee/the-real-difference-between-underextracted-and-weak-coffee",
+          "category": "coffee",
+          "title": "The Real Difference Between Underextracted and Weak Coffee",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on The Real Difference Between Underextracted and Weak Coffee",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "what-coffee-freshness-actually-means-for-flavor-and-extraction",
+          "href": "/coffee/what-coffee-freshness-actually-means-for-flavor-and-extraction",
+          "category": "coffee",
+          "title": "What Coffee Freshness Actually Means for Flavor and Extraction",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on What Coffee Freshness Actually Means for Flavor and Extraction",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 63,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "href": "/coffee/how-to-build-a-home-brewing-workflow-you-can-repeat-half-awake",
+          "category": "coffee",
+          "title": "How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "cluster": "Coffee brewing fundamentals",
+          "anchorText": "read the companion guide on How to Build a Home Brewing Workflow You Can Repeat Half Awake",
+          "reason": "Stays inside coffee brewing fundamentals and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 57,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": false
+    }
+  ],
+  "cocktails": [
+    {
+      "slug": "sesame-orange-old-fashioned",
+      "category": "cocktails",
+      "title": "Sesame Orange Old Fashioned: A Savory-Sweet Whiskey Riff That Still Drinks Clean",
+      "cluster": "Spirit-forward cocktails",
+      "source": "live",
+      "relatedReadingHeading": "Spirit-forward cocktail next reads",
+      "relatedReadingIntro": "Start with Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "cold-brew-negroni-riff",
+          "href": "/cocktails/cold-brew-negroni-riff",
+          "category": "cocktails",
+          "title": "Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "smoked-cherry-sour",
+          "href": "/cocktails/smoked-cherry-sour",
+          "category": "cocktails",
+          "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Add Smoke",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "yuzu-gimlet-riff",
+          "href": "/cocktails/yuzu-gimlet-riff",
+          "category": "cocktails",
+          "title": "Yuzu Gimlet Riff: How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "cluster": "Flavor pairing guides",
+          "anchorText": "see the related guide on How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 53,
+          "forced": false
+        },
+        {
+          "slug": "how-orange-sesame-and-rye-create-depth-without-heaviness",
+          "href": "/cocktails/how-orange-sesame-and-rye-create-depth-without-heaviness",
+          "category": "cocktails",
+          "title": "How Orange, Sesame, and Rye Create Depth Without Heaviness",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on How Orange, Sesame, and Rye Create Depth",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 42,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the spirit-forward cocktail hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/flavor-profile/savory",
+          "title": "Savory Flavor Profile",
+          "anchorText": "see the savory flavor profile page",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "old-fashioned-riffs-that-change-the-drink-without-breaking-it",
+          "href": "/cocktails/old-fashioned-riffs-that-change-the-drink-without-breaking-it",
+          "category": "cocktails",
+          "title": "Old Fashioned Riffs That Change the Drink Without Breaking It",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on Old Fashioned Riffs That Change the Drink",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 42,
+          "forced": false
+        },
+        {
+          "slug": "when-a-martinez-style-drink-tastes-better-than-a-martini-riff",
+          "href": "/cocktails/when-a-martinez-style-drink-tastes-better-than-a-martini-riff",
+          "category": "cocktails",
+          "title": "When a Martinez-Style Drink Tastes Better Than a Martini Riff",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on When a Martinez-Style Drink Tastes Better Than a Martini Riff",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 40,
+          "forced": false
+        },
+        {
+          "slug": "how-to-stir-cocktails-for-texture-not-just-temperature",
+          "href": "/cocktails/how-to-stir-cocktails-for-texture-not-just-temperature",
+          "category": "cocktails",
+          "title": "How to Stir Cocktails for Texture, Not Just Temperature",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on How to Stir Cocktails for Texture, Not Just Temperature",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 38,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Use one forced link near the section on savory-sweet balance and one in the closing riff section.",
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "yuzu-gimlet-riff",
+      "category": "cocktails",
+      "title": "Yuzu Gimlet Riff: How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+      "cluster": "Flavor pairing guides",
+      "source": "live",
+      "relatedReadingHeading": "Flavor pairing guide next reads",
+      "relatedReadingIntro": "Start with Clarified Pineapple Highball: Tropical Flavor With a Dry, Transparent Finish, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "clarified-pineapple-highball",
+          "href": "/cocktails/clarified-pineapple-highball",
+          "category": "cocktails",
+          "title": "Clarified Pineapple Highball: Tropical Flavor With a Dry, Transparent Finish",
+          "cluster": "Refreshing highballs and spritzes",
+          "anchorText": "see the related guide on Tropical Flavor With a Dry, Transparent Finish",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "rosemary-apricot-spritz",
+          "href": "/cocktails/rosemary-apricot-spritz",
+          "category": "cocktails",
+          "title": "Rosemary Apricot Spritz for Spring Hosting",
+          "cluster": "Refreshing highballs and spritzes",
+          "anchorText": "see the related guide on Rosemary Apricot Spritz",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "sesame-orange-old-fashioned",
+          "href": "/cocktails/sesame-orange-old-fashioned",
+          "category": "cocktails",
+          "title": "Sesame Orange Old Fashioned: A Savory-Sweet Whiskey Riff That Still Drinks Clean",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "see the related guide on A Savory-Sweet Whiskey Riff That Still Drinks Clean",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 53,
+          "forced": false
+        },
+        {
+          "slug": "cold-brew-negroni-riff",
+          "href": "/cocktails/cold-brew-negroni-riff",
+          "category": "cocktails",
+          "title": "Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "see the related guide on A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 50,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the flavor pairing cocktail hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "see the main pairing and technique archive",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "smoked-cherry-sour",
+          "href": "/cocktails/smoked-cherry-sour",
+          "category": "cocktails",
+          "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Add Smoke",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 38,
+          "forced": false
+        },
+        {
+          "slug": "how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "href": "/cocktails/how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "category": "cocktails",
+          "title": "How to Make Original Cocktails Feel Coherent Instead of Random",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Make Original Cocktails Feel Coherent Instead of Random",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 30,
+          "forced": false
+        },
+        {
+          "slug": "when-a-martinez-style-drink-tastes-better-than-a-martini-riff",
+          "href": "/cocktails/when-a-martinez-style-drink-tastes-better-than-a-martini-riff",
+          "category": "cocktails",
+          "title": "When a Martinez-Style Drink Tastes Better Than a Martini Riff",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "see the related guide on When a Martinez-Style Drink Tastes Better Than a Martini Riff",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 30,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "clarified-pineapple-highball",
+      "category": "cocktails",
+      "title": "Clarified Pineapple Highball: Tropical Flavor With a Dry, Transparent Finish",
+      "cluster": "Refreshing highballs and spritzes",
+      "source": "live",
+      "relatedReadingHeading": "Highball next reads",
+      "relatedReadingIntro": "Start with Rosemary Apricot Spritz for Spring Hosting, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "rosemary-apricot-spritz",
+          "href": "/cocktails/rosemary-apricot-spritz",
+          "category": "cocktails",
+          "title": "Rosemary Apricot Spritz for Spring Hosting",
+          "cluster": "Refreshing highballs and spritzes",
+          "anchorText": "see another bright, hosting-friendly tall drink",
+          "reason": "Stays inside refreshing highballs and spritzes and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "yuzu-gimlet-riff",
+          "href": "/cocktails/yuzu-gimlet-riff",
+          "category": "cocktails",
+          "title": "Yuzu Gimlet Riff: How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "cluster": "Flavor pairing guides",
+          "anchorText": "see the related guide on How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 57,
+          "forced": false
+        },
+        {
+          "slug": "smoked-cherry-sour",
+          "href": "/cocktails/smoked-cherry-sour",
+          "category": "cocktails",
+          "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Add Smoke",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 44,
+          "forced": false
+        },
+        {
+          "slug": "cold-brew-negroni-riff",
+          "href": "/cocktails/cold-brew-negroni-riff",
+          "category": "cocktails",
+          "title": "Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "see the related guide on A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 34,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the highball and spritz hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "see the wider technique archive",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "href": "/cocktails/how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "category": "cocktails",
+          "title": "How to Batch an Original Party Cocktail Without Losing Freshness",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Batch an Original Party Cocktail",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 30,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "href": "/cocktails/how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "category": "cocktails",
+          "title": "How to Build an Original Cocktail Without Making a Kitchen Sink Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Build an Original Cocktail",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 30,
+          "forced": false
+        },
+        {
+          "slug": "how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "href": "/cocktails/how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "category": "cocktails",
+          "title": "How to Make Original Cocktails Feel Coherent Instead of Random",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Make Original Cocktails Feel Coherent Instead of Random",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 30,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "rosemary-apricot-spritz",
+      "category": "cocktails",
+      "title": "Rosemary Apricot Spritz for Spring Hosting",
+      "cluster": "Refreshing highballs and spritzes",
+      "source": "live",
+      "relatedReadingHeading": "Highball next reads",
+      "relatedReadingIntro": "Start with Clarified Pineapple Highball: Tropical Flavor With a Dry, Transparent Finish, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "clarified-pineapple-highball",
+          "href": "/cocktails/clarified-pineapple-highball",
+          "category": "cocktails",
+          "title": "Clarified Pineapple Highball: Tropical Flavor With a Dry, Transparent Finish",
+          "cluster": "Refreshing highballs and spritzes",
+          "anchorText": "read the companion guide on Tropical Flavor With a Dry, Transparent Finish",
+          "reason": "Stays inside refreshing highballs and spritzes and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "yuzu-gimlet-riff",
+          "href": "/cocktails/yuzu-gimlet-riff",
+          "category": "cocktails",
+          "title": "Yuzu Gimlet Riff: How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "cluster": "Flavor pairing guides",
+          "anchorText": "see the related guide on How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 64,
+          "forced": false
+        },
+        {
+          "slug": "smoked-cherry-sour",
+          "href": "/cocktails/smoked-cherry-sour",
+          "category": "cocktails",
+          "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Add Smoke",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 38,
+          "forced": false
+        },
+        {
+          "slug": "cold-brew-negroni-riff",
+          "href": "/cocktails/cold-brew-negroni-riff",
+          "category": "cocktails",
+          "title": "Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "see the related guide on A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 34,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the highball and spritz hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "see the wider technique archive",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "href": "/cocktails/how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "category": "cocktails",
+          "title": "How to Batch an Original Party Cocktail Without Losing Freshness",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Batch an Original Party Cocktail",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 28,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "href": "/cocktails/how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "category": "cocktails",
+          "title": "How to Build an Original Cocktail Without Making a Kitchen Sink Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Build an Original Cocktail",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 28,
+          "forced": false
+        },
+        {
+          "slug": "how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "href": "/cocktails/how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "category": "cocktails",
+          "title": "How to Make Original Cocktails Feel Coherent Instead of Random",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Make Original Cocktails Feel Coherent Instead of Random",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 28,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Surface one adjacent-cluster link into original cocktail design so the page earns broader discovery traffic.",
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "cold-brew-negroni-riff",
+      "category": "cocktails",
+      "title": "Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+      "cluster": "Spirit-forward cocktails",
+      "source": "live",
+      "relatedReadingHeading": "Spirit-forward cocktail next reads",
+      "relatedReadingIntro": "Start with Sesame Orange Old Fashioned: A Savory-Sweet Whiskey Riff That Still Drinks Clean, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "sesame-orange-old-fashioned",
+          "href": "/cocktails/sesame-orange-old-fashioned",
+          "category": "cocktails",
+          "title": "Sesame Orange Old Fashioned: A Savory-Sweet Whiskey Riff That Still Drinks Clean",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on A Savory-Sweet Whiskey Riff That Still Drinks Clean",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "yuzu-gimlet-riff",
+          "href": "/cocktails/yuzu-gimlet-riff",
+          "category": "cocktails",
+          "title": "Yuzu Gimlet Riff: How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "cluster": "Flavor pairing guides",
+          "anchorText": "see the related guide on How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "when-a-martinez-style-drink-tastes-better-than-a-martini-riff",
+          "href": "/cocktails/when-a-martinez-style-drink-tastes-better-than-a-martini-riff",
+          "category": "cocktails",
+          "title": "When a Martinez-Style Drink Tastes Better Than a Martini Riff",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on When a Martinez-Style Drink Tastes Better Than a Martini Riff",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 48,
+          "forced": false
+        },
+        {
+          "slug": "smoked-cherry-sour",
+          "href": "/cocktails/smoked-cherry-sour",
+          "category": "cocktails",
+          "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "see the related guide on How to Add Smoke",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 43,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the spirit-forward cocktail hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/flavor-profile/savory",
+          "title": "Savory Flavor Profile",
+          "anchorText": "see the savory flavor profile page",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "manhattan-variations-for-people-who-prefer-dry-not-sticky",
+          "href": "/cocktails/manhattan-variations-for-people-who-prefer-dry-not-sticky",
+          "category": "cocktails",
+          "title": "Manhattan Variations for People Who Prefer Dry, Not Sticky",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on Manhattan Variations for People Who Prefer Dry, Not Sticky",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 40,
+          "forced": false
+        },
+        {
+          "slug": "why-your-spirit-forward-cocktails-taste-hot-even-when-they-are-cold",
+          "href": "/cocktails/why-your-spirit-forward-cocktails-taste-hot-even-when-they-are-cold",
+          "category": "cocktails",
+          "title": "Why Your Spirit-Forward Cocktails Taste Hot Even When They Are Cold",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on Why Your Spirit-Forward Cocktails Taste Hot Even When They Are Cold",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 40,
+          "forced": false
+        },
+        {
+          "slug": "how-orange-sesame-and-rye-create-depth-without-heaviness",
+          "href": "/cocktails/how-orange-sesame-and-rye-create-depth-without-heaviness",
+          "category": "cocktails",
+          "title": "How Orange, Sesame, and Rye Create Depth Without Heaviness",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "read the companion guide on How Orange, Sesame, and Rye Create Depth",
+          "reason": "Stays inside spirit-forward cocktails and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 38,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "smoked-cherry-sour",
+      "category": "cocktails",
+      "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+      "cluster": "Original cocktail concepts",
+      "source": "live",
+      "relatedReadingHeading": "Original cocktail concept next reads",
+      "relatedReadingIntro": "Start with Sesame Orange Old Fashioned: A Savory-Sweet Whiskey Riff That Still Drinks Clean, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "sesame-orange-old-fashioned",
+          "href": "/cocktails/sesame-orange-old-fashioned",
+          "category": "cocktails",
+          "title": "Sesame Orange Old Fashioned: A Savory-Sweet Whiskey Riff That Still Drinks Clean",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "see the related guide on A Savory-Sweet Whiskey Riff That Still Drinks Clean",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 999,
+          "forced": true
+        },
+        {
+          "slug": "cold-brew-negroni-riff",
+          "href": "/cocktails/cold-brew-negroni-riff",
+          "category": "cocktails",
+          "title": "Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "cluster": "Spirit-forward cocktails",
+          "anchorText": "see the related guide on A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+          "reason": "Connects an adjacent technique or flavor problem the reader is likely to hit next.",
+          "relationship": "adjacent-cluster",
+          "score": 47,
+          "forced": false
+        },
+        {
+          "slug": "tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+          "href": "/cocktails/tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+          "category": "cocktails",
+          "title": "Tea in Cocktails: How to Add Aroma Without Making the Drink Thin",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Add Aroma",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 46,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "href": "/cocktails/how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "category": "cocktails",
+          "title": "How to Build an Original Cocktail Without Making a Kitchen Sink Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Build an Original Cocktail",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 42,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the original cocktail hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "browse the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "yuzu-gimlet-riff",
+          "href": "/cocktails/yuzu-gimlet-riff",
+          "category": "cocktails",
+          "title": "Yuzu Gimlet Riff: How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "cluster": "Flavor pairing guides",
+          "anchorText": "see the related guide on How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+          "reason": "Adds nearby context without repeating the same explanation in a new article.",
+          "relationship": "adjacent-cluster",
+          "score": 42,
+          "forced": false
+        },
+        {
+          "slug": "how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "href": "/cocktails/how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "category": "cocktails",
+          "title": "How to Batch an Original Party Cocktail Without Losing Freshness",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Batch an Original Party Cocktail",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 40,
+          "forced": false
+        },
+        {
+          "slug": "how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "href": "/cocktails/how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "category": "cocktails",
+          "title": "How to Make Original Cocktails Feel Coherent Instead of Random",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Make Original Cocktails Feel Coherent Instead of Random",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 40,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Add a firsthand tasting note before publishing any recommendation that compares smoke levels across recipes.",
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": true
+    },
+    {
+      "slug": "how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+      "category": "cocktails",
+      "title": "How to Build an Original Cocktail Without Making a Kitchen Sink Drink",
+      "cluster": "Original cocktail concepts",
+      "source": "strategy",
+      "relatedReadingHeading": "Original cocktail concept next reads",
+      "relatedReadingIntro": "Start with Tea in Cocktails: How to Add Aroma Without Making the Drink Thin, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+          "href": "/cocktails/tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+          "category": "cocktails",
+          "title": "Tea in Cocktails: How to Add Aroma Without Making the Drink Thin",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Add Aroma",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 62,
+          "forced": false
+        },
+        {
+          "slug": "how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "href": "/cocktails/how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "category": "cocktails",
+          "title": "How to Batch an Original Party Cocktail Without Losing Freshness",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Batch an Original Party Cocktail",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 61,
+          "forced": false
+        },
+        {
+          "slug": "how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "href": "/cocktails/how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "category": "cocktails",
+          "title": "How to Make Original Cocktails Feel Coherent Instead of Random",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Make Original Cocktails Feel Coherent Instead of Random",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 59,
+          "forced": false
+        },
+        {
+          "slug": "smoked-cherry-sour",
+          "href": "/cocktails/smoked-cherry-sour",
+          "category": "cocktails",
+          "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Add Smoke",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 52,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the original cocktail hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "browse the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "the-easiest-way-to-start-designing-house-cocktails-at-home",
+          "href": "/cocktails/the-easiest-way-to-start-designing-house-cocktails-at-home",
+          "category": "cocktails",
+          "title": "The Easiest Way to Start Designing House Cocktails at Home",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on The Easiest Way to Start Designing House Cocktails at Home",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "what-to-borrow-from-classic-structures-when-inventing-new-drinks",
+          "href": "/cocktails/what-to-borrow-from-classic-structures-when-inventing-new-drinks",
+          "category": "cocktails",
+          "title": "What to Borrow From Classic Structures When Inventing New Drinks",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on What to Borrow From Classic Structures When Inventing New Drinks",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "why-savory-notes-work-in-cocktails-when-sweetness-stays-controlled",
+          "href": "/cocktails/why-savory-notes-work-in-cocktails-when-sweetness-stays-controlled",
+          "category": "cocktails",
+          "title": "Why Savory Notes Work in Cocktails When Sweetness Stays Controlled",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on Why Savory Notes Work in Cocktails When Sweetness Stays Controlled",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": false
+    },
+    {
+      "slug": "the-easiest-way-to-start-designing-house-cocktails-at-home",
+      "category": "cocktails",
+      "title": "The Easiest Way to Start Designing House Cocktails at Home",
+      "cluster": "Original cocktail concepts",
+      "source": "strategy",
+      "relatedReadingHeading": "Original cocktail concept next reads",
+      "relatedReadingIntro": "Start with How to Batch an Original Party Cocktail Without Losing Freshness, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "href": "/cocktails/how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "category": "cocktails",
+          "title": "How to Batch an Original Party Cocktail Without Losing Freshness",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Batch an Original Party Cocktail",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "href": "/cocktails/how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "category": "cocktails",
+          "title": "How to Build an Original Cocktail Without Making a Kitchen Sink Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Build an Original Cocktail",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "smoked-cherry-sour",
+          "href": "/cocktails/smoked-cherry-sour",
+          "category": "cocktails",
+          "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Add Smoke",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "what-to-borrow-from-classic-structures-when-inventing-new-drinks",
+          "href": "/cocktails/what-to-borrow-from-classic-structures-when-inventing-new-drinks",
+          "category": "cocktails",
+          "title": "What to Borrow From Classic Structures When Inventing New Drinks",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on What to Borrow From Classic Structures When Inventing New Drinks",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the original cocktail hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "browse the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "why-savory-notes-work-in-cocktails-when-sweetness-stays-controlled",
+          "href": "/cocktails/why-savory-notes-work-in-cocktails-when-sweetness-stays-controlled",
+          "category": "cocktails",
+          "title": "Why Savory Notes Work in Cocktails When Sweetness Stays Controlled",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on Why Savory Notes Work in Cocktails When Sweetness Stays Controlled",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "href": "/cocktails/how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "category": "cocktails",
+          "title": "How to Make Original Cocktails Feel Coherent Instead of Random",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Make Original Cocktails Feel Coherent Instead of Random",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 48,
+          "forced": false
+        },
+        {
+          "slug": "tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+          "href": "/cocktails/tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+          "category": "cocktails",
+          "title": "Tea in Cocktails: How to Add Aroma Without Making the Drink Thin",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Add Aroma",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 48,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": false
+    },
+    {
+      "slug": "why-savory-notes-work-in-cocktails-when-sweetness-stays-controlled",
+      "category": "cocktails",
+      "title": "Why Savory Notes Work in Cocktails When Sweetness Stays Controlled",
+      "cluster": "Original cocktail concepts",
+      "source": "strategy",
+      "relatedReadingHeading": "Original cocktail concept next reads",
+      "relatedReadingIntro": "Start with What to Borrow From Classic Structures When Inventing New Drinks, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "what-to-borrow-from-classic-structures-when-inventing-new-drinks",
+          "href": "/cocktails/what-to-borrow-from-classic-structures-when-inventing-new-drinks",
+          "category": "cocktails",
+          "title": "What to Borrow From Classic Structures When Inventing New Drinks",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on What to Borrow From Classic Structures When Inventing New Drinks",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 57,
+          "forced": false
+        },
+        {
+          "slug": "how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "href": "/cocktails/how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "category": "cocktails",
+          "title": "How to Batch an Original Party Cocktail Without Losing Freshness",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Batch an Original Party Cocktail",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "href": "/cocktails/how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "category": "cocktails",
+          "title": "How to Build an Original Cocktail Without Making a Kitchen Sink Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Build an Original Cocktail",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "smoked-cherry-sour",
+          "href": "/cocktails/smoked-cherry-sour",
+          "category": "cocktails",
+          "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Add Smoke",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the original cocktail hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "browse the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "the-easiest-way-to-start-designing-house-cocktails-at-home",
+          "href": "/cocktails/the-easiest-way-to-start-designing-house-cocktails-at-home",
+          "category": "cocktails",
+          "title": "The Easiest Way to Start Designing House Cocktails at Home",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on The Easiest Way to Start Designing House Cocktails at Home",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "href": "/cocktails/how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "category": "cocktails",
+          "title": "How to Make Original Cocktails Feel Coherent Instead of Random",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Make Original Cocktails Feel Coherent Instead of Random",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 48,
+          "forced": false
+        },
+        {
+          "slug": "tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+          "href": "/cocktails/tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+          "category": "cocktails",
+          "title": "Tea in Cocktails: How to Add Aroma Without Making the Drink Thin",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Add Aroma",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 48,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": false
+    },
+    {
+      "slug": "tea-in-cocktails-how-to-add-aroma-without-making-the-drink-thin",
+      "category": "cocktails",
+      "title": "Tea in Cocktails: How to Add Aroma Without Making the Drink Thin",
+      "cluster": "Original cocktail concepts",
+      "source": "strategy",
+      "relatedReadingHeading": "Original cocktail concept next reads",
+      "relatedReadingIntro": "Start with How to Build an Original Cocktail Without Making a Kitchen Sink Drink, then use Original Cocktail Ideas Hub if you want the wider cluster instead of another one-off answer.",
+      "contextualLinks": [
+        {
+          "slug": "how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "href": "/cocktails/how-to-build-an-original-cocktail-without-making-a-kitchen-sink-drink",
+          "category": "cocktails",
+          "title": "How to Build an Original Cocktail Without Making a Kitchen Sink Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Build an Original Cocktail",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 62,
+          "forced": false
+        },
+        {
+          "slug": "smoked-cherry-sour",
+          "href": "/cocktails/smoked-cherry-sour",
+          "category": "cocktails",
+          "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Add Smoke",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 56,
+          "forced": false
+        },
+        {
+          "slug": "how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "href": "/cocktails/how-to-make-original-cocktails-feel-coherent-instead-of-random",
+          "category": "cocktails",
+          "title": "How to Make Original Cocktails Feel Coherent Instead of Random",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Make Original Cocktails Feel Coherent Instead of Random",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        },
+        {
+          "slug": "using-coffee-in-stirred-cocktails-without-turning-them-muddy",
+          "href": "/cocktails/using-coffee-in-stirred-cocktails-without-turning-them-muddy",
+          "category": "cocktails",
+          "title": "Using Coffee in Stirred Cocktails Without Turning Them Muddy",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on Using Coffee in Stirred Cocktails",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 50,
+          "forced": false
+        }
+      ],
+      "pillarLinks": [
+        {
+          "href": "/cocktails",
+          "title": "Original Cocktail Ideas Hub",
+          "anchorText": "browse the original cocktail hub",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        },
+        {
+          "href": "/guides",
+          "title": "Coffee and Cocktail Guides",
+          "anchorText": "browse the main guides index",
+          "reason": "Surfaces a pillar page so this article keeps feeding the broader cocktails architecture."
+        }
+      ],
+      "relatedReading": [
+        {
+          "slug": "how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "href": "/cocktails/how-to-batch-an-original-party-cocktail-without-losing-freshness",
+          "category": "cocktails",
+          "title": "How to Batch an Original Party Cocktail Without Losing Freshness",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on How to Batch an Original Party Cocktail",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 48,
+          "forced": false
+        },
+        {
+          "slug": "the-easiest-way-to-start-designing-house-cocktails-at-home",
+          "href": "/cocktails/the-easiest-way-to-start-designing-house-cocktails-at-home",
+          "category": "cocktails",
+          "title": "The Easiest Way to Start Designing House Cocktails at Home",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on The Easiest Way to Start Designing House Cocktails at Home",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 48,
+          "forced": false
+        },
+        {
+          "slug": "what-to-borrow-from-classic-structures-when-inventing-new-drinks",
+          "href": "/cocktails/what-to-borrow-from-classic-structures-when-inventing-new-drinks",
+          "category": "cocktails",
+          "title": "What to Borrow From Classic Structures When Inventing New Drinks",
+          "cluster": "Original cocktail concepts",
+          "anchorText": "read the companion guide on What to Borrow From Classic Structures When Inventing New Drinks",
+          "reason": "Stays inside original cocktail concepts and gives the reader a practical next step instead of a lateral detour.",
+          "relationship": "same-cluster",
+          "score": 48,
+          "forced": false
+        }
+      ],
+      "editorialNotes": [
+        "Keep fact-sensitive claims beside links that depend on brew tests, tasting, or product comparisons."
+      ],
+      "manualOverrideUsed": false
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6f0e7;
+  --foreground: #201812;
+  --cream: #f6f0e7;
+  --ink: #201812;
+  --coffee: #704c2d;
+  --cocktail: #0d5c63;
+  --gold: #d4a44a;
+  --sand: #eadcc9;
+  --font-body: "Aptos", "Segoe UI", "Trebuchet MS", sans-serif;
+  --font-heading: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-coffee: var(--coffee);
+  --color-cocktail: var(--cocktail);
+  --color-gold: var(--gold);
+  --color-sand: var(--sand);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(212, 164, 74, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(13, 92, 99, 0.14), transparent 24%),
+    linear-gradient(180deg, #f8f3eb 0%, #f3ece3 100%);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.3;
+  background-image:
+    linear-gradient(rgba(32, 24, 18, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(32, 24, 18, 0.025) 1px, transparent 1px);
+  background-size: 24px 24px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), transparent 85%);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at center, transparent 50%, rgba(70, 43, 21, 0.05) 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-heading {
+  font-family: var(--font-heading), serif;
+}
+
+.site-shell {
+  min-height: 100vh;
+}
+
+.hero-grid {
+  position: relative;
+}
+
+.hero-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+}
+
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(32, 24, 18, 0.08);
+  background: rgba(255, 255, 255, 0.84);
+  padding: 0.6rem 1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgb(87 83 78);
+  box-shadow: 0 10px 30px rgba(32, 24, 18, 0.05);
+}
+
+.section-label::before {
+  content: "";
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--gold), var(--cocktail));
+}
+
+.soft-panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 60px rgba(32, 24, 18, 0.08);
+}
+
+.soft-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35), transparent 35%);
+  pointer-events: none;
+}

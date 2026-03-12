@@ -1,0 +1,242 @@
+{
+  "v60-bloom-timing-guide": {
+    "imagePath": "/images/coffee/v60-bloom-timing-guide.jpg",
+    "imageCaption": "A clean V60 bloom with an even coffee bed and controlled kettle pour.",
+    "imageAlt": "V60 Bloom Timing Guide shown as a clear amber black coffee in a Hario V60 dripper over a clear glass server with no garnish.",
+    "visualStatus": "prompt-ready",
+    "hotOrIced": "hot",
+    "foamTexture": "no foam",
+    "milkTexture": "none",
+    "vesselType": "white ceramic V60 dripper over clear glass server",
+    "drinkColor": "clear amber black coffee",
+    "settingMood": "bright natural morning kitchen light",
+    "styleTags": [
+      "pour-over",
+      "minimal",
+      "bright natural light",
+      "ceramic dripper",
+      "steam visible"
+    ],
+    "imagePrompt": "Photorealistic premium coffee photography of V60 Bloom Timing Guide. Show the final drink exactly as served: clear amber black coffee, served in a white ceramic V60 dripper over a clear glass server, garnish none. Style cues: pour-over, minimal, bright natural light, ceramic dripper, steam visible. Realistic lighting, realistic liquid texture, clean composition, visually appetizing, no surreal styling, no fake garnish, no inaccurate vessel."
+  },
+  "espresso-yield-ratios-explained": {
+    "imagePath": "/images/coffee/espresso-yield-ratios-explained.jpg",
+    "imageCaption": "A precise espresso shot with crema clarity shown beside a scale and demitasse.",
+    "imageAlt": "Espresso Yield Ratios Explained shown as a deep caramel espresso with hazelnut crema in an espresso cup beside shot glass and scale, with no garnish.",
+    "visualStatus": "prompt-ready",
+    "hotOrIced": "hot",
+    "foamTexture": "dense crema",
+    "milkTexture": "none",
+    "vesselType": "espresso cup beside shot glass and scale",
+    "drinkColor": "deep caramel espresso with hazelnut crema",
+    "settingMood": "clean espresso bar precision setup",
+    "styleTags": [
+      "espresso",
+      "precision",
+      "close-up",
+      "cafe counter",
+      "crema texture"
+    ],
+    "imagePrompt": "Photorealistic premium coffee photography of Espresso Yield Ratios Explained. Show the final drink exactly as served: deep caramel espresso with hazelnut crema, served in an espresso cup beside shot glass and scale, garnish none. Style cues: espresso, precision, close-up, cafe counter, crema texture. Realistic lighting, realistic liquid texture, clean composition, visually appetizing, no surreal styling, no fake garnish, no inaccurate vessel."
+  },
+  "microfoam-at-home": {
+    "imagePath": "/images/coffee/microfoam-at-home.jpg",
+    "imageCaption": "Glossy microfoam integrating into a latte just before a centered pour.",
+    "imageAlt": "How to Steam Microfoam at Home shown as a soft tan milk coffee in a ceramic latte cup with simple latte art pour.",
+    "visualStatus": "prompt-ready",
+    "hotOrIced": "hot",
+    "foamTexture": "glossy microfoam",
+    "milkTexture": "silky integrated steamed milk",
+    "vesselType": "ceramic latte cup",
+    "drinkColor": "soft tan milk coffee",
+    "settingMood": "warm home cafe light",
+    "styleTags": [
+      "latte",
+      "microfoam",
+      "home espresso",
+      "close texture",
+      "warm light"
+    ],
+    "imagePrompt": "Photorealistic premium coffee photography of How to Steam Microfoam at Home Without Turning Milk Into Hot Bubbles. Show the final drink exactly as served: soft tan milk coffee, served in a ceramic latte cup, garnish simple latte art pour. Style cues: latte, microfoam, home espresso, close texture, warm light. Realistic lighting, realistic liquid texture, clean composition, visually appetizing, no surreal styling, no fake garnish, no inaccurate vessel."
+  },
+  "hand-grinder-upgrade-guide": {
+    "imagePath": "/images/coffee/hand-grinder-upgrade-guide.jpg",
+    "imageCaption": "A hand grinder staged with brewed coffee and beans to show the gear-to-cup connection.",
+    "imageAlt": "When a Hand Grinder Upgrade Actually Improves Your Coffee shown as a clear medium-brown brewed coffee in a clear tasting glass with no garnish.",
+    "visualStatus": "prompt-ready",
+    "hotOrIced": "hot",
+    "foamTexture": "no foam",
+    "milkTexture": "none",
+    "vesselType": "clear tasting glass with brewed coffee",
+    "drinkColor": "clear medium-brown brewed coffee",
+    "settingMood": "editorial daylight gear still life",
+    "styleTags": [
+      "hand grinder",
+      "brew setup",
+      "editorial still life",
+      "coffee beans",
+      "daylight"
+    ],
+    "imagePrompt": "Photorealistic premium coffee photography of When a Hand Grinder Upgrade Actually Improves Your Coffee. Show the final drink exactly as served: clear medium-brown brewed coffee, served in a clear tasting glass with brewed coffee, garnish none. Style cues: hand grinder, brew setup, editorial still life, coffee beans, daylight. Realistic lighting, realistic liquid texture, clean composition, visually appetizing, no surreal styling, no fake garnish, no inaccurate vessel."
+  },
+  "why-your-pour-over-tastes-bitter": {
+    "imagePath": "/images/coffee/why-your-pour-over-tastes-bitter.jpg",
+    "imageCaption": "A side-by-side pour-over setup showing an overdrawn cup versus a cleaner corrected brew.",
+    "imageAlt": "Why Your Pour-Over Tastes Bitter shown as a dark brewed coffee with slight amber edge in a clear glass server and tasting cup, with no garnish.",
+    "visualStatus": "prompt-ready",
+    "hotOrIced": "hot",
+    "foamTexture": "no foam",
+    "milkTexture": "none",
+    "vesselType": "clear glass server and tasting cup",
+    "drinkColor": "dark brewed coffee with slight amber edge",
+    "settingMood": "clean brewing bench with natural light",
+    "styleTags": [
+      "pour-over",
+      "troubleshooting",
+      "comparison",
+      "clean editorial",
+      "natural light"
+    ],
+    "imagePrompt": "Photorealistic premium coffee photography of Why Your Pour-Over Tastes Bitter: The Fastest Fixes to Try First. Show the final drink exactly as served: dark brewed coffee with slight amber edge, served in a clear glass server and tasting cup, garnish none. Style cues: pour-over, troubleshooting, comparison, clean editorial, natural light. Realistic lighting, realistic liquid texture, clean composition, visually appetizing, no surreal styling, no fake garnish, no inaccurate vessel."
+  },
+  "decaf-for-espresso-milk-drinks": {
+    "imagePath": "/images/coffee/decaf-for-espresso-milk-drinks.jpg",
+    "imageCaption": "A milk drink built with decaf espresso, shown with layered crema and soft foam texture.",
+    "imageAlt": "Choosing Decaf for Espresso Milk Drinks shown as a warm tan drink in a small cappuccino cup with simple tulip latte art.",
+    "visualStatus": "prompt-ready",
+    "hotOrIced": "hot",
+    "foamTexture": "soft cappuccino foam",
+    "milkTexture": "steamed milk with integrated texture",
+    "vesselType": "small cappuccino cup",
+    "drinkColor": "warm tan with chestnut crema accents",
+    "settingMood": "cozy cafe tabletop",
+    "styleTags": [
+      "decaf latte",
+      "milk drink",
+      "espresso",
+      "soft foam",
+      "premium cafe style"
+    ],
+    "imagePrompt": "Photorealistic premium coffee photography of Choosing Decaf for Espresso Milk Drinks Without Ending Up With Flat Flavor. Show the final drink exactly as served: warm tan with chestnut crema accents, served in a small cappuccino cup, garnish simple tulip latte art. Style cues: decaf latte, milk drink, espresso, soft foam, premium cafe style. Realistic lighting, realistic liquid texture, clean composition, visually appetizing, no surreal styling, no fake garnish, no inaccurate vessel."
+  },
+  "sesame-orange-old-fashioned": {
+    "imagePath": "/images/cocktails/sesame-orange-old-fashioned.jpg",
+    "imageCaption": "A dark amber Old Fashioned riff with orange expression and savory sesame cues.",
+    "imageAlt": "Sesame Orange Old Fashioned served in a double rocks glass with expressed orange peel and light toasted sesame accent.",
+    "visualStatus": "prompt-ready",
+    "glassware": "double rocks glass",
+    "garnish": "expressed orange peel and light toasted sesame accent",
+    "drinkColor": "deep amber",
+    "iceStyle": "one large clear cube",
+    "vesselType": "double rocks glass",
+    "settingMood": "moody bar light",
+    "styleTags": [
+      "old fashioned",
+      "stirred",
+      "large cube",
+      "moody bar light",
+      "savory citrus"
+    ],
+    "imagePrompt": "Photorealistic premium cocktail photography of Sesame Orange Old Fashioned. Show the final drink exactly as served: deep amber, in double rocks glass, with expressed orange peel and light toasted sesame accent. Style cues: old fashioned, stirred, large cube, moody bar light, savory citrus. Realistic lighting, realistic ice and liquid texture, accurate glassware, accurate garnish, clean composition, visually appetizing, no fantasy styling."
+  },
+  "yuzu-gimlet-riff": {
+    "imagePath": "/images/cocktails/yuzu-gimlet-riff.jpg",
+    "imageCaption": "A pale citrus-toned gimlet with crisp coupe presentation and restrained yuzu garnish.",
+    "imageAlt": "Yuzu Gimlet Riff served in a coupe glass with thin yuzu or lime twist garnish.",
+    "visualStatus": "prompt-ready",
+    "glassware": "coupe glass",
+    "garnish": "thin yuzu or lime twist",
+    "drinkColor": "pale yellow-green",
+    "iceStyle": "served up, no ice",
+    "vesselType": "chilled coupe glass",
+    "settingMood": "refined studio bar light",
+    "styleTags": [
+      "gimlet",
+      "citrus",
+      "coupe",
+      "bright studio light",
+      "elegant minimal"
+    ],
+    "imagePrompt": "Photorealistic premium cocktail photography of Yuzu Gimlet Riff: How to Keep Bright Citrus Cocktails Precise Instead of Perfumed. Show the final drink exactly as served: pale yellow-green, in coupe glass, with thin yuzu or lime twist. Style cues: gimlet, citrus, coupe, bright studio light, elegant minimal. Realistic lighting, realistic ice and liquid texture, accurate glassware, accurate garnish, clean composition, visually appetizing, no fantasy styling."
+  },
+  "clarified-pineapple-highball": {
+    "imagePath": "/images/cocktails/clarified-pineapple-highball.jpg",
+    "imageCaption": "A transparent tropical highball with lively bubbles and a dry, polished look.",
+    "imageAlt": "Clarified Pineapple Highball served in a tall highball glass with grapefruit or pineapple leaf accent.",
+    "visualStatus": "prompt-ready",
+    "glassware": "tall highball glass",
+    "garnish": "grapefruit or pineapple leaf accent",
+    "drinkColor": "pale gold",
+    "iceStyle": "clear spear or stacked highball cubes",
+    "vesselType": "tall highball glass",
+    "settingMood": "crisp daylight bar setup",
+    "styleTags": [
+      "highball",
+      "clarified",
+      "bubbles",
+      "tropical",
+      "crisp daylight"
+    ],
+    "imagePrompt": "Photorealistic premium cocktail photography of Clarified Pineapple Highball: Tropical Flavor With a Dry, Transparent Finish. Show the final drink exactly as served: pale gold, in tall highball glass, with grapefruit or pineapple leaf accent. Style cues: highball, clarified, bubbles, tropical, crisp daylight. Realistic lighting, realistic ice and liquid texture, accurate glassware, accurate garnish, clean composition, visually appetizing, no fantasy styling."
+  },
+  "rosemary-apricot-spritz": {
+    "imagePath": "/images/cocktails/rosemary-apricot-spritz.jpg",
+    "imageCaption": "A spring spritz with apricot tones, bright bubbles, and a fresh rosemary lift.",
+    "imageAlt": "Rosemary Apricot Spritz served in a large wine glass with rosemary sprig and orange slice garnish.",
+    "visualStatus": "prompt-ready",
+    "glassware": "large wine glass",
+    "garnish": "rosemary sprig and orange slice",
+    "drinkColor": "apricot peach",
+    "iceStyle": "cold cubed ice",
+    "vesselType": "large wine glass",
+    "settingMood": "bright spring aperitivo table",
+    "styleTags": [
+      "spritz",
+      "apricot",
+      "spring",
+      "wine glass",
+      "bright aperitivo"
+    ],
+    "imagePrompt": "Photorealistic premium cocktail photography of Rosemary Apricot Spritz for Spring Hosting. Show the final drink exactly as served: apricot peach, in large wine glass, with rosemary sprig and orange slice. Style cues: spritz, apricot, spring, wine glass, bright aperitivo. Realistic lighting, realistic ice and liquid texture, accurate glassware, accurate garnish, clean composition, visually appetizing, no fantasy styling."
+  },
+  "cold-brew-negroni-riff": {
+    "imagePath": "/images/cocktails/cold-brew-negroni-riff.jpg",
+    "imageCaption": "A dark bittersweet stirred cocktail with coffee depth and a dry polished finish.",
+    "imageAlt": "Cold Brew Negroni Riff served in a double rocks glass with orange peel garnish.",
+    "visualStatus": "prompt-ready",
+    "glassware": "double rocks glass",
+    "garnish": "orange peel",
+    "drinkColor": "deep garnet brown",
+    "iceStyle": "one large clear cube",
+    "vesselType": "double rocks glass",
+    "settingMood": "moody bitter-cocktail bar light",
+    "styleTags": [
+      "negroni riff",
+      "coffee cocktail",
+      "stirred",
+      "large cube",
+      "moody editorial"
+    ],
+    "imagePrompt": "Photorealistic premium cocktail photography of Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry. Show the final drink exactly as served: deep garnet brown, in double rocks glass, with orange peel. Style cues: negroni riff, coffee cocktail, stirred, large cube, moody editorial. Realistic lighting, realistic ice and liquid texture, accurate glassware, accurate garnish, clean composition, visually appetizing, no fantasy styling."
+  },
+  "smoked-cherry-sour": {
+    "imagePath": "/images/cocktails/smoked-cherry-sour.jpg",
+    "imageCaption": "A vivid cherry-toned sour with restrained smoke atmosphere and a fresh citrus edge.",
+    "imageAlt": "Smoked Cherry Sour served in a double rocks glass with brandied cherry and expressed lemon peel garnish.",
+    "visualStatus": "prompt-ready",
+    "glassware": "double rocks glass",
+    "garnish": "brandied cherry and expressed lemon peel",
+    "drinkColor": "deep ruby red",
+    "iceStyle": "one large cube or fresh cold rocks ice",
+    "vesselType": "double rocks glass",
+    "settingMood": "dramatic low-light nightcap bar",
+    "styleTags": [
+      "sour",
+      "smoke",
+      "cherry",
+      "nightcap",
+      "dramatic low light"
+    ],
+    "imagePrompt": "Photorealistic premium cocktail photography of Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink. Show the final drink exactly as served: deep ruby red, in double rocks glass, with brandied cherry and expressed lemon peel. Style cues: sour, smoke, cherry, nightcap, dramatic low light. Realistic lighting, realistic ice and liquid texture, accurate glassware, accurate garnish, clean composition, visually appetizing, no fantasy styling."
+  }
+}

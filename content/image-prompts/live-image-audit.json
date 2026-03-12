@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "v60-bloom-timing-guide",
+    "category": "coffee",
+    "imagePath": "/images/coffee/v60-bloom-timing-guide.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "espresso-yield-ratios-explained",
+    "category": "coffee",
+    "imagePath": "/images/coffee/espresso-yield-ratios-explained.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "microfoam-at-home",
+    "category": "coffee",
+    "imagePath": "/images/coffee/microfoam-at-home.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "hand-grinder-upgrade-guide",
+    "category": "coffee",
+    "imagePath": "/images/coffee/hand-grinder-upgrade-guide.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "why-your-pour-over-tastes-bitter",
+    "category": "coffee",
+    "imagePath": "/images/coffee/why-your-pour-over-tastes-bitter.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "decaf-for-espresso-milk-drinks",
+    "category": "coffee",
+    "imagePath": "/images/coffee/decaf-for-espresso-milk-drinks.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "sesame-orange-old-fashioned",
+    "category": "cocktails",
+    "imagePath": "/images/cocktails/sesame-orange-old-fashioned.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "yuzu-gimlet-riff",
+    "category": "cocktails",
+    "imagePath": "/images/cocktails/yuzu-gimlet-riff.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "clarified-pineapple-highball",
+    "category": "cocktails",
+    "imagePath": "/images/cocktails/clarified-pineapple-highball.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "rosemary-apricot-spritz",
+    "category": "cocktails",
+    "imagePath": "/images/cocktails/rosemary-apricot-spritz.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "cold-brew-negroni-riff",
+    "category": "cocktails",
+    "imagePath": "/images/cocktails/cold-brew-negroni-riff.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  },
+  {
+    "slug": "smoked-cherry-sour",
+    "category": "cocktails",
+    "imagePath": "/images/cocktails/smoked-cherry-sour.jpg",
+    "hasImage": false,
+    "visualStatus": "prompt-ready",
+    "issues": []
+  }
+]
