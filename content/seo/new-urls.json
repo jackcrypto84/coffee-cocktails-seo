@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-03-12T13:15:38.589Z",
+  "count": 12,
+  "urls": [
+    "https://www.groundedandstirred.com/cocktails/rosemary-apricot-spritz",
+    "https://www.groundedandstirred.com/cocktails/yuzu-gimlet-riff",
+    "https://www.groundedandstirred.com/coffee/v60-bloom-timing-guide",
+    "https://www.groundedandstirred.com/coffee/decaf-for-espresso-milk-drinks",
+    "https://www.groundedandstirred.com/cocktails/smoked-cherry-sour",
+    "https://www.groundedandstirred.com/coffee/espresso-yield-ratios-explained",
+    "https://www.groundedandstirred.com/cocktails/cold-brew-negroni-riff",
+    "https://www.groundedandstirred.com/coffee/why-your-pour-over-tastes-bitter",
+    "https://www.groundedandstirred.com/cocktails/sesame-orange-old-fashioned",
+    "https://www.groundedandstirred.com/coffee/hand-grinder-upgrade-guide",
+    "https://www.groundedandstirred.com/cocktails/clarified-pineapple-highball",
+    "https://www.groundedandstirred.com/coffee/microfoam-at-home"
+  ],
+  "articles": [
+    {
+      "slug": "rosemary-apricot-spritz",
+      "category": "cocktails",
+      "publishedAt": "2026-03-01",
+      "url": "https://www.groundedandstirred.com/cocktails/rosemary-apricot-spritz"
+    },
+    {
+      "slug": "yuzu-gimlet-riff",
+      "category": "cocktails",
+      "publishedAt": "2026-02-06",
+      "url": "https://www.groundedandstirred.com/cocktails/yuzu-gimlet-riff"
+    },
+    {
+      "slug": "v60-bloom-timing-guide",
+      "category": "coffee",
+      "publishedAt": "2026-02-02",
+      "url": "https://www.groundedandstirred.com/coffee/v60-bloom-timing-guide"
+    },
+    {
+      "slug": "decaf-for-espresso-milk-drinks",
+      "category": "coffee",
+      "publishedAt": "2026-02-24",
+      "url": "https://www.groundedandstirred.com/coffee/decaf-for-espresso-milk-drinks"
+    },
+    {
+      "slug": "smoked-cherry-sour",
+      "category": "cocktails",
+      "publishedAt": "2026-02-20",
+      "url": "https://www.groundedandstirred.com/cocktails/smoked-cherry-sour"
+    },
+    {
+      "slug": "espresso-yield-ratios-explained",
+      "category": "coffee",
+      "publishedAt": "2026-01-22",
+      "url": "https://www.groundedandstirred.com/coffee/espresso-yield-ratios-explained"
+    },
+    {
+      "slug": "cold-brew-negroni-riff",
+      "category": "cocktails",
+      "publishedAt": "2026-02-14",
+      "url": "https://www.groundedandstirred.com/cocktails/cold-brew-negroni-riff"
+    },
+    {
+      "slug": "why-your-pour-over-tastes-bitter",
+      "category": "coffee",
+      "publishedAt": "2026-01-30",
+      "url": "https://www.groundedandstirred.com/coffee/why-your-pour-over-tastes-bitter"
+    },
+    {
+      "slug": "sesame-orange-old-fashioned",
+      "category": "cocktails",
+      "publishedAt": "2026-01-10",
+      "url": "https://www.groundedandstirred.com/cocktails/sesame-orange-old-fashioned"
+    },
+    {
+      "slug": "hand-grinder-upgrade-guide",
+      "category": "coffee",
+      "publishedAt": "2026-02-18",
+      "url": "https://www.groundedandstirred.com/coffee/hand-grinder-upgrade-guide"
+    },
+    {
+      "slug": "clarified-pineapple-highball",
+      "category": "cocktails",
+      "publishedAt": "2026-01-28",
+      "url": "https://www.groundedandstirred.com/cocktails/clarified-pineapple-highball"
+    },
+    {
+      "slug": "microfoam-at-home",
+      "category": "coffee",
+      "publishedAt": "2026-01-12",
+      "url": "https://www.groundedandstirred.com/coffee/microfoam-at-home"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { ArticlePage } from "@/components/article-page";
 import { getArticleBySlug, getPublishedArticles } from "@/lib/content";
+import { getArticlePath, getMetaDescription, getMetaTitle, isNoindex } from "@/lib/indexing";
 import { buildMetadata } from "@/lib/seo";
 
 export async function generateStaticParams() {
@@ -16,10 +17,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return buildMetadata({
-    title: article.title,
-    description: article.description,
-    path: `/cocktails/${article.slug}`,
+    title: getMetaTitle(article),
+    description: getMetaDescription(article),
+    path: getArticlePath(article),
     imagePath: article.ogImagePath,
+    noindex: isNoindex(article),
   });
 }
 

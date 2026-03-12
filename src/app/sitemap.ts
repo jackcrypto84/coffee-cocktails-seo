@@ -1,17 +1,30 @@
 import type { MetadataRoute } from "next";
 import { getPublishedArticles, taxonomies } from "@/lib/content";
+import { getArticlePath, isNoindex } from "@/lib/indexing";
 import { siteConfig } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/coffee", "/cocktails", "/guides", "/search"].map((path) => ({
-    url: `${siteConfig.url}${path}`,
+  const routes = [
+    "",
+    "/coffee",
+    "/cocktails",
+    "/guides",
+    "/search",
+    "/affiliate-disclosure",
+    "/editorial-policy",
+    "/corrections-policy",
+    "/testing-methodology",
+  ].map((pathname) => ({
+    url: `${siteConfig.url}${pathname}`,
     lastModified: new Date(),
   }));
 
-  const articleRoutes = getPublishedArticles().map((article) => ({
-    url: `${siteConfig.url}/${article.category}/${article.slug}`,
-    lastModified: new Date(article.updatedAt),
-  }));
+  const articleRoutes = getPublishedArticles()
+    .filter((article) => !isNoindex(article))
+    .map((article) => ({
+      url: `${siteConfig.url}${getArticlePath(article)}`,
+      lastModified: new Date(article.updatedAt),
+    }));
 
   const ingredientRoutes = taxonomies.ingredients.map((item) => ({
     url: `${siteConfig.url}/ingredients/${item.slug}`,
@@ -35,4 +48,3 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...routes, ...articleRoutes, ...ingredientRoutes, ...brewingRoutes, ...flavorRoutes, ...authorRoutes];
 }
-

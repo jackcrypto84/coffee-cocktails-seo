@@ -59,6 +59,14 @@ export type Citation = {
   note: string;
 };
 
+export type SeoSettings = {
+  metaTitle?: string;
+  metaDescription?: string;
+  canonicalPath?: string;
+  noindex?: boolean;
+  schemaType?: "Article" | "Recipe";
+};
+
 export type Article = {
   slug: string;
   category: ContentCategory;
@@ -120,6 +128,7 @@ export type Article = {
   recipeIterationNotes?: string[];
   sourceReferences?: SourceReference[];
   citations?: Citation[];
+  seo?: SeoSettings;
 };
 
 export type Author = {

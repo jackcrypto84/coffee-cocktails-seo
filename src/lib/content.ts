@@ -177,6 +177,10 @@ export function getRelatedArticles(article: Article, limit = 3) {
   return getFallbackRelatedArticles(article, limit);
 }
 
+export function getSuggestedRelatedPages(article: Article, limit = 3) {
+  return getFallbackRelatedArticles(article, limit);
+}
+
 export function getSearchIndex() {
   return getPublishedArticles().map((article) => ({
     slug: article.slug,

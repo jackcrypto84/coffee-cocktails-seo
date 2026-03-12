@@ -6,4 +6,4 @@ const replicate = new Replicate({
   auth: process.env.REPLICATE_API_TOKEN,
 });
 
-console.log("Client created successfully");
+console.log("Client created successfully:", Boolean(replicate));

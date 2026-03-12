@@ -7,9 +7,10 @@ type MetaInput = {
   path: string;
   type?: "website" | "article";
   imagePath?: string;
+  noindex?: boolean;
 };
 
-export function buildMetadata({ title, description, path, type = "article", imagePath = "/opengraph-image" }: MetaInput): Metadata {
+export function buildMetadata({ title, description, path, type = "article", imagePath = "/opengraph-image", noindex = false }: MetaInput): Metadata {
   const url = new URL(path, siteConfig.url).toString();
   const imageUrl = new URL(imagePath, siteConfig.url).toString();
 
@@ -42,6 +43,23 @@ export function buildMetadata({ title, description, path, type = "article", imag
       description,
       images: [imageUrl],
     },
+    robots: noindex
+      ? {
+          index: false,
+          follow: false,
+          googleBot: {
+            index: false,
+            follow: false,
+          },
+        }
+      : {
+          index: true,
+          follow: true,
+          googleBot: {
+            index: true,
+            follow: true,
+          },
+        },
   };
 }
 

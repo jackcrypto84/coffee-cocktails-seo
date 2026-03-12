@@ -1,0 +1,451 @@
+{
+  "generatedAt": "2026-03-12T13:29:31.059Z",
+  "totals": {
+    "auditedRoutes": 34,
+    "auditedArticles": 12,
+    "blockerCount": 0,
+    "issueCount": 0
+  },
+  "blockers": [],
+  "issues": [],
+  "articleAudits": [
+    {
+      "type": "article",
+      "slug": "rosemary-apricot-spritz",
+      "category": "cocktails",
+      "path": "/cocktails/rosemary-apricot-spritz",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/cocktails/rosemary-apricot-spritz",
+      "title": "Rosemary Apricot Spritz for Spring Hosting",
+      "metaDescription": "A more complete spring spritz guide with stronger balance logic for apricot sweetness, rosemary aroma, batching, and keeping the finish dry enough to stay refreshing.",
+      "schema": "Recipe",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 1,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "yuzu-gimlet-riff",
+      "category": "cocktails",
+      "path": "/cocktails/yuzu-gimlet-riff",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/cocktails/yuzu-gimlet-riff",
+      "title": "Yuzu Gimlet Riff: How to Keep Bright Citrus Cocktails Precise Instead of Perfumed",
+      "metaDescription": "A fuller yuzu gimlet riff guide with clearer substitution logic, dilution reasoning, and better guardrails for keeping bright citrus cocktails precise instead of perfumed.",
+      "schema": "Recipe",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 1,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "v60-bloom-timing-guide",
+      "category": "coffee",
+      "path": "/coffee/v60-bloom-timing-guide",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/coffee/v60-bloom-timing-guide",
+      "title": "V60 Bloom Timing Guide: How Long to Bloom for Cleaner, Sweeter Cups",
+      "metaDescription": "A practical guide to bloom timing, degassing, and drawdown control for more consistent V60 brews.",
+      "schema": "Recipe",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 1,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "decaf-for-espresso-milk-drinks",
+      "category": "coffee",
+      "path": "/coffee/decaf-for-espresso-milk-drinks",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/coffee/decaf-for-espresso-milk-drinks",
+      "title": "Choosing Decaf for Espresso Milk Drinks Without Ending Up With Flat Flavor",
+      "metaDescription": "How to choose decaf for espresso milk drinks with better guidance on roast development, solubility, and what still shows up once milk softens the shot.",
+      "schema": "Article",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 1,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "smoked-cherry-sour",
+      "category": "cocktails",
+      "path": "/cocktails/smoked-cherry-sour",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/cocktails/smoked-cherry-sour",
+      "title": "Smoked Cherry Sour: How to Add Smoke Without Smothering the Drink",
+      "metaDescription": "A stronger guide to smoked cherry sours that explains smoke restraint, cherry balance, dilution, and the safety-minded choices that keep the drink convincing.",
+      "schema": "Recipe",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 1,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "espresso-yield-ratios-explained",
+      "category": "coffee",
+      "path": "/coffee/espresso-yield-ratios-explained",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/coffee/espresso-yield-ratios-explained",
+      "title": "Espresso Yield Ratios Explained: When to Pull Short, Standard, or Long",
+      "metaDescription": "A grounded look at dose-to-yield ratios so home baristas can dial espresso based on taste instead of dogma.",
+      "schema": "Article",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 0,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "cold-brew-negroni-riff",
+      "category": "cocktails",
+      "path": "/cocktails/cold-brew-negroni-riff",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/cocktails/cold-brew-negroni-riff",
+      "title": "Cold Brew Negroni Riff: A Coffee Cocktail That Stays Bitter, Balanced, and Dry",
+      "metaDescription": "A fuller guide to building a cold brew Negroni riff that stays bitter, dry, and coherent instead of slipping into muddy sweetness.",
+      "schema": "Recipe",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 0,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "why-your-pour-over-tastes-bitter",
+      "category": "coffee",
+      "path": "/coffee/why-your-pour-over-tastes-bitter",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/coffee/why-your-pour-over-tastes-bitter",
+      "title": "Why Your Pour-Over Tastes Bitter: The Fastest Fixes to Try First",
+      "metaDescription": "A sharper troubleshooting guide for bitter pour-over coffee with practical adjustments for grind, agitation, brew time, and roast-related bitterness.",
+      "schema": "Article",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 0,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "sesame-orange-old-fashioned",
+      "category": "cocktails",
+      "path": "/cocktails/sesame-orange-old-fashioned",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/cocktails/sesame-orange-old-fashioned",
+      "title": "Sesame Orange Old Fashioned: A Savory-Sweet Whiskey Riff That Still Drinks Clean",
+      "metaDescription": "An original old fashioned variation that uses toasted sesame and orange oils without becoming heavy or cloying.",
+      "schema": "Recipe",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 1,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "hand-grinder-upgrade-guide",
+      "category": "coffee",
+      "path": "/coffee/hand-grinder-upgrade-guide",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/coffee/hand-grinder-upgrade-guide",
+      "title": "When a Hand Grinder Upgrade Actually Improves Your Coffee",
+      "metaDescription": "A stronger grinder buyer guide that helps home brewers decide whether a hand grinder upgrade will actually improve cup quality or whether another bottleneck deserves the money first.",
+      "schema": "Article",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 1,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "clarified-pineapple-highball",
+      "category": "cocktails",
+      "path": "/cocktails/clarified-pineapple-highball",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/cocktails/clarified-pineapple-highball",
+      "title": "Clarified Pineapple Highball: Tropical Flavor With a Dry, Transparent Finish",
+      "metaDescription": "A clearer guide to pineapple highballs that explains when clarification helps, how dryness is protected, and why tropical flavor does not need juice-bar heaviness.",
+      "schema": "Recipe",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 1,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "article",
+      "slug": "microfoam-at-home",
+      "category": "coffee",
+      "path": "/coffee/microfoam-at-home",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/coffee/microfoam-at-home",
+      "title": "How to Steam Microfoam at Home Without Turning Milk Into Hot Bubbles",
+      "metaDescription": "A practical microfoam guide for home espresso setups with clearer cues for stretching, polishing, pouring, and fixing common milk-texture mistakes.",
+      "schema": "Recipe",
+      "imageAltPresent": true,
+      "internalLinks": {
+        "contextualLinks": 4,
+        "relatedReading": 1,
+        "pillarLinks": 2
+      },
+      "blockers": [],
+      "issues": []
+    }
+  ],
+  "routeAudits": [
+    {
+      "type": "static",
+      "path": "/",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/",
+      "title": "Grounded & Stirred",
+      "metaDescription": "Coffee brewing guides and original cocktail ideas with strong taxonomy, SEO structure, and editorial controls.",
+      "schema": "WebSite",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "static",
+      "path": "/coffee",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/coffee",
+      "title": "Coffee Brewing Guides",
+      "metaDescription": "Browse coffee articles covering brew methods, beans, grinders, espresso, milk drinks, and troubleshooting.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "static",
+      "path": "/cocktails",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/cocktails",
+      "title": "Original Cocktail Ideas",
+      "metaDescription": "Browse original cocktails, classics with twists, flavor-led drink ideas, seasonal serves, and home bar technique guides.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "static",
+      "path": "/guides",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/guides",
+      "title": "Guides",
+      "metaDescription": "Browse editorial guide pathways for coffee brewing and original cocktails.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "static",
+      "path": "/search",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/search",
+      "title": "Search",
+      "metaDescription": "Search the Grounded & Stirred archive by topic, ingredient, method, and flavor profile.",
+      "schema": "WebPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "static",
+      "path": "/affiliate-disclosure",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/affiliate-disclosure",
+      "title": "Affiliate Disclosure",
+      "metaDescription": "Learn how Grounded & Stirred handles affiliate relationships and editorial independence.",
+      "schema": "WebPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "static",
+      "path": "/editorial-policy",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/editorial-policy",
+      "title": "Editorial Policy",
+      "metaDescription": "Read the editorial standards that guide publishing, testing, attribution, and corrections on Grounded & Stirred.",
+      "schema": "WebPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "static",
+      "path": "/corrections-policy",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/corrections-policy",
+      "title": "Corrections Policy",
+      "metaDescription": "See how factual corrections and updates are handled across the Grounded & Stirred archive.",
+      "schema": "WebPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "static",
+      "path": "/testing-methodology",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/testing-methodology",
+      "title": "Testing Methodology",
+      "metaDescription": "How the site approaches brewing tests, cocktail iteration, tasting notes, and practical validation.",
+      "schema": "WebPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "ingredient",
+      "path": "/ingredients/gin",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/ingredients/gin",
+      "title": "Gin",
+      "metaDescription": "A botanical base that plays especially well with citrus, herbs, tea, and savory accents.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "ingredient",
+      "path": "/ingredients/rye-whiskey",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/ingredients/rye-whiskey",
+      "title": "Rye Whiskey",
+      "metaDescription": "Peppery, dry, and structure-driven, rye supports stirred cocktails with spice and length.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "ingredient",
+      "path": "/ingredients/coffee-beans",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/ingredients/coffee-beans",
+      "title": "Coffee Beans",
+      "metaDescription": "Whole bean quality, roast development, and freshness shape extraction more than gadget hype ever will.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "ingredient",
+      "path": "/ingredients/citrus",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/ingredients/citrus",
+      "title": "Citrus",
+      "metaDescription": "Fresh citrus controls brightness, aroma, and perceived sweetness in both coffee-adjacent drinks and cocktails.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "brewing-method",
+      "path": "/brewing-method/pour-over",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/brewing-method/pour-over",
+      "title": "Pour-Over",
+      "metaDescription": "A clean, transparent method that rewards steady pours and small grind changes.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "brewing-method",
+      "path": "/brewing-method/espresso",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/brewing-method/espresso",
+      "title": "Espresso",
+      "metaDescription": "A concentrated brew method where dose, yield, time, and puck prep all visibly affect the cup.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "brewing-method",
+      "path": "/brewing-method/milk-drinks",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/brewing-method/milk-drinks",
+      "title": "Milk Drinks",
+      "metaDescription": "Texture and temperature matter as much as espresso quality when building cappuccinos and lattes.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "flavor-profile",
+      "path": "/flavor-profile/chocolatey",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/flavor-profile/chocolatey",
+      "title": "Chocolatey",
+      "metaDescription": "Round, comforting, and lower-acid profiles that often appeal to classic coffee drinkers and whiskey fans alike.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "flavor-profile",
+      "path": "/flavor-profile/citrus-forward",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/flavor-profile/citrus-forward",
+      "title": "Citrus-Forward",
+      "metaDescription": "Bright aromatics and lifted acidity that make drinks taste lively rather than sharp when balanced properly.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "flavor-profile",
+      "path": "/flavor-profile/floral",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/flavor-profile/floral",
+      "title": "Floral",
+      "metaDescription": "Perfumed, delicate notes that need restraint in recipe design to avoid tasting soapy or diffuse.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "flavor-profile",
+      "path": "/flavor-profile/bittersweet",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/flavor-profile/bittersweet",
+      "title": "Bittersweet",
+      "metaDescription": "Structured, aperitivo-style balance where bitterness is present but not punishing.",
+      "schema": "CollectionPage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "author",
+      "path": "/authors/maya-chen",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/authors/maya-chen",
+      "title": "Maya Chen",
+      "metaDescription": "Maya tests home-brewing workflows with an emphasis on repeatability, sensory clarity, and honest troubleshooting for everyday setups.",
+      "schema": "ProfilePage",
+      "blockers": [],
+      "issues": []
+    },
+    {
+      "type": "author",
+      "path": "/authors/julian-vale",
+      "canonical": "https://coffee-cocktails-seo.vercel.app/authors/julian-vale",
+      "title": "Julian Vale",
+      "metaDescription": "Julian develops original drinks with a chef-minded approach to aroma, acidity, dilution, and seasonal ingredient pairings.",
+      "schema": "ProfilePage",
+      "blockers": [],
+      "issues": []
+    }
+  ]
+}

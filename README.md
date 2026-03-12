@@ -320,6 +320,48 @@ Tradeoffs:
 - Prompt quality still matters. The automation removes manual generation steps, but it cannot fix weak visual briefs on its own.
 - Final editorial review is still recommended for garnish accuracy, glassware accuracy, and visual match to the recipe.
 
+## Indexing readiness
+The site now includes an indexing-readiness workflow focused on normal, supportable discovery improvements rather than unsupported indexing hacks.
+
+What is automated:
+- Dynamic `/sitemap.xml` with published articles, taxonomy pages, author pages, and core static routes
+- Crawl-friendly `/robots.txt` that points to the live sitemap
+- Canonical tags for page metadata through `buildMetadata`
+- `Article` or `Recipe` schema on article pages, plus FAQ and breadcrumb schema
+- Internal-link suggestions and related-reading blocks through the internal linking engine
+- A publish-gate audit that flags missing title, meta description, canonical, schema, internal links, image alt text, or accidental `noindex` on published articles
+- A newly-published URL export for manual submission in Google Search Console
+- An optional Search Console inspection checker for verified properties when credentials are available
+
+Core files:
+- `src/app/sitemap.ts`
+- `src/app/robots.ts`
+- `src/lib/seo.ts`
+- `src/lib/indexing.ts`
+- `scripts/seo-utils.mjs`
+- `scripts/seo-audit.mjs`
+- `scripts/seo-new-urls.mjs`
+- `scripts/seo-sitemap.mjs`
+- `scripts/check-search-console-status.mjs`
+- `content/seo/`
+
+Useful commands:
+```bash
+npm run seo:audit
+npm run seo:new-urls
+npm run seo:sitemap
+```
+
+Optional Search Console status check:
+- Set `GOOGLE_SEARCH_CONSOLE_ACCESS_TOKEN`
+- Set `GOOGLE_SEARCH_CONSOLE_PROPERTY`
+- Run `npm run seo:status -- https://www.groundedandstirred.com/coffee/v60-bloom-timing-guide`
+
+Tradeoffs:
+- The audit is strict for published articles and route inventory, but it does not pretend to force indexing. Manual submission in Search Console is still the right path for fresh URLs.
+- Static-route SEO metadata is tracked as a lightweight registry in the script layer so operational reports stay fast and maintainable.
+- Search Console support is inspection-only when credentials are present; it does not attempt unsupported bulk indexing behavior.
+
 ## SEO and editorial tradeoffs
 - File-based content is ideal for speed and simplicity, but non-technical editors may eventually prefer MDX or a CMS UI.
 - Search is static and local right now, which is fast and maintenance-light, but it is not a full-text indexed search engine.

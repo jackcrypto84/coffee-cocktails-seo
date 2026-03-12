@@ -15,7 +15,11 @@
     "links:sample": "node scripts/generate-link-recommendations.mjs",
     "images:sample": "node scripts/generate-image-prompts.mjs",
     "images:audit": "node scripts/audit-recipe-images.mjs",
-    "generate:images": "node scripts/generateRecipeImages.mjs"
+    "generate:images": "node scripts/generateRecipeImages.mjs",
+    "seo:audit": "node scripts/seo-audit.mjs",
+    "seo:new-urls": "node scripts/seo-new-urls.mjs",
+    "seo:sitemap": "node scripts/seo-sitemap.mjs",
+    "seo:status": "node scripts/check-search-console-status.mjs"
   },
   "dependencies": {
     "next": "16.1.6",

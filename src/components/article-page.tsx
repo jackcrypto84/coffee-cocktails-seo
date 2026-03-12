@@ -9,7 +9,8 @@ import { RecipeIterationNotes } from "@/components/recipe-iteration-notes";
 import { SourceReferences } from "@/components/source-references";
 import { TastingNotes } from "@/components/tasting-notes";
 import { TestingNotes } from "@/components/testing-notes";
-import { getAuthorBySlug, getAuthorsBySlugs, getInternalLinkPlan } from "@/lib/content";
+import { getAuthorBySlug, getAuthorsBySlugs, getIngredientBySlug, getInternalLinkPlan } from "@/lib/content";
+import { getArticlePath, getMetaDescription, getMetaTitle, getSchemaType } from "@/lib/indexing";
 import { Article } from "@/lib/content-types";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -21,20 +22,43 @@ export function ArticlePage({ article }: { article: Article }) {
   const breadcrumbItems = [
     { name: "Home", item: absoluteUrl("/") },
     { name: article.category === "coffee" ? "Coffee" : "Cocktails", item: absoluteUrl(`/${article.category}`) },
-    { name: article.title, item: absoluteUrl(`/${article.category}/${article.slug}`) },
+    { name: article.title, item: absoluteUrl(getArticlePath(article)) },
   ];
 
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: article.title,
-    description: article.description,
-    datePublished: article.publishedAt,
-    dateModified: article.updatedAt,
-    image: absoluteUrl(article.ogImagePath ?? `/${article.category}/${article.slug}/opengraph-image`),
-    author: author ? { "@type": "Person", name: author.name } : undefined,
-    mainEntityOfPage: absoluteUrl(`/${article.category}/${article.slug}`),
-  };
+  const schemaType = getSchemaType(article);
+  const recipeIngredients = (article.ingredients ?? []).map((slug) => getIngredientBySlug(slug)?.name ?? slug);
+  const recipeInstructions = article.sections
+    .filter((section) => section.type === "steps")
+    .flatMap((section) => section.items)
+    .map((item) => ({ "@type": "HowToStep", text: item }));
+
+  const articleSchema = schemaType === "Recipe"
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Recipe",
+        name: getMetaTitle(article),
+        description: getMetaDescription(article),
+        datePublished: article.publishedAt,
+        dateModified: article.updatedAt,
+        image: absoluteUrl(article.ogImagePath ?? `/${article.category}/${article.slug}/opengraph-image`),
+        author: author ? { "@type": "Person", name: author.name } : undefined,
+        mainEntityOfPage: absoluteUrl(getArticlePath(article)),
+        recipeCategory: article.category === "coffee" ? "Coffee recipe" : "Cocktail recipe",
+        recipeIngredient: recipeIngredients.length ? recipeIngredients : undefined,
+        keywords: article.tags.join(", "),
+        recipeInstructions: recipeInstructions.length ? recipeInstructions : undefined,
+      }
+    : {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: getMetaTitle(article),
+        description: getMetaDescription(article),
+        datePublished: article.publishedAt,
+        dateModified: article.updatedAt,
+        image: absoluteUrl(article.ogImagePath ?? `/${article.category}/${article.slug}/opengraph-image`),
+        author: author ? { "@type": "Person", name: author.name } : undefined,
+        mainEntityOfPage: absoluteUrl(getArticlePath(article)),
+      };
 
   const faqSchema = article.faq.length
     ? {
